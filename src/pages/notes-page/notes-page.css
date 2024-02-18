@@ -1,0 +1,97 @@
+.default_carousel_top {
+  padding-top: 30px;
+}
+.notes_page_left {
+  margin-right: 20px;
+  padding: 0 40px;
+}
+.notes_page_left .main_block,
+.notes_page_left {
+  width: 100%;
+}
+.notes_page_left .main_block {
+  padding: 50px 60px;
+}
+
+.notes_page_content_top {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 20px;
+}
+.notes_page_upload {
+  cursor: pointer;
+}
+.notes_page_left p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.notes_page_content_top span {
+  color: rgb(186, 186, 186);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.notes_page_content_textare p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.notes_page_content_textare textarea {
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.notes_page_content_chex_top div,
+.notes_page_content_chex_bottom div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.notes_page_content_chex_top input,
+.notes_page_content_chex_bottom input {
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+  border: 1px solid rgb(58, 100, 250);
+  border-radius: 8.5px;
+  cursor: pointer;
+}
+
+.notes_page_content_chex_bottom {
+  padding-left: 25px;
+}
+
+.notes_page_content_chex_bottom {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.upload_note_btn {
+  border-radius: 3px;
+  width: 230px;
+  height: 55px;
+  margin-top: 40px;
+  background: rgb(47, 116, 250);
+}

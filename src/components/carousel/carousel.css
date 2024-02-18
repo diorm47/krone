@@ -1,0 +1,13 @@
+.carousel_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 37px;
+  border-radius: 10px;
+
+  box-shadow: 0px 4px 20px 0px rgba(50, 94, 251, 0.2);
+  background: rgb(255, 255, 255);
+}
+.carousel_wrapper img {
+    cursor: pointer;
+}

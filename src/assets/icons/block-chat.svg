@@ -1,0 +1,14 @@
+<svg width="43.029297" height="43.029541" viewBox="0 0 43.0293 43.0295" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient id="paint_linear_1_3958_0" x1="21.514774" y1="0.000000" x2="21.514774" y2="43.029549" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CED9FF"/>
+			<stop offset="1.000000" stop-color="#5177FF"/>
+		</linearGradient>
+	</defs>
+	<circle id="Ellipse 3" cx="21.515625" cy="21.514771" r="21.514774" fill="url(#paint_linear_1_3958_0)" fill-opacity="1.000000"/>
+	<path id="Vector" d="M5.91602 18.6345C5.91602 14.5781 9.20312 11.2917 13.2578 11.2917L18.9902 11.2917C23.0469 11.2917 26.332 14.5788 26.332 18.6345C26.332 22.6886 23.0449 25.9764 18.9902 25.9764L14.666 25.9764L14.666 29.5209C14.666 29.5209 5.91602 27.749 5.91602 18.6345Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Vector" d="M20.8477 27.2364C21.9414 28.2882 23.3984 28.8748 24.916 28.8727L27.0625 28.8727L27.0625 31.7084C27.0625 31.7084 35.084 30.2909 35.084 22.9992C35.084 21.4414 34.4648 19.9474 33.3633 18.8458C32.2617 17.7442 30.7676 17.1253 29.209 17.1251L27.5977 17.1251C27.7246 17.6034 27.791 18.1058 27.791 18.6242C27.791 22.849 24.8164 26.3796 20.8477 27.2364Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>
