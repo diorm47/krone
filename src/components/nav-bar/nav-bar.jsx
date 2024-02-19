@@ -6,7 +6,7 @@ import { ReactComponent as ArrowDownSec } from "../../assets/icons/arrow-down-se
 import { ReactComponent as Mail } from "../../assets/icons/mail.svg";
 import { ReactComponent as Notification } from "../../assets/icons/notification.svg";
 import { ReactComponent as Logout } from "../../assets/icons/logout-icon.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import profile from "../../assets/images/profile.png";
 
 function NavBar() {
@@ -14,6 +14,7 @@ function NavBar() {
   const [notDrop, setNotDrop] = useState(false);
   const [profDrop, setProfDrop] = useState(false);
   const [menuDrop, setMenuDrop] = useState(false);
+  const navigate = useNavigate()
 
   const closeDrops = () => {
     setMailsDrop(false);
@@ -21,6 +22,9 @@ function NavBar() {
     setProfDrop(false);
     setMenuDrop(false);
   };
+  const redirect = () => {
+   navigate('/theme-search')
+  }
   return (
     <>
       <nav>
@@ -41,14 +45,17 @@ function NavBar() {
                   </div>
                 </NavLink>
                 {menuDrop ? (
-                  <div className="home_nav_links_drop">
+                  <div
+                    className="home_nav_links_drop"
+                    onClick={() => setMenuDrop(false)}
+                  >
                     <NavLink to="">
                       <p>Новые сообщения</p>
                     </NavLink>
                     <NavLink to="">
                       <p>Темы без ответов</p>
                     </NavLink>
-                    <NavLink to="">
+                    <NavLink to="/themes-list">
                       <p>Мои темы</p>
                     </NavLink>
                     <NavLink to="">
@@ -72,7 +79,7 @@ function NavBar() {
             </div>
           </div>
           <div className="nav_right">
-            <input type="text" placeholder="Поиск" className="search_input" />
+            <input type="text" placeholder="Поиск" className="search_input" onChange={redirect}/>
             <div className="nav_right_actions">
               <div className="nav_mails">
                 <div

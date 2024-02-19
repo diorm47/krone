@@ -7,6 +7,9 @@ import NotesPage from "./pages/notes-page/notes-page";
 import TheShopsPage from "./pages/the-shops-page/the-shops-page";
 import MailsPage from "./pages/mails-page/mails-page";
 import UserPage from "./pages/user-page/user-page";
+import ThemesList from "./pages/themes-page/themes-list";
+import CreateTheme from "./pages/themes-page/create-theme";
+import ThemesSearch from "./pages/themes-page/theme-search";
 
 function App() {
   return (
@@ -21,6 +24,11 @@ function App() {
           <Route path="/the-shops" element={<TheShopsPage />} />
           <Route path="/mails" element={<MailsPage />} />
           <Route path="/user/*" element={<UserPage />} />
+          <Route path="/themes-list" element={<ThemesList />} />
+          <Route path="/create-theme" element={<CreateTheme />} />
+          <Route path="/theme-search" element={<ThemesSearch />} />
+
+          
 
         </Routes>
       </div>
