@@ -1,0 +1,288 @@
+.mails_page_content {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 57px;
+  padding-bottom: 22px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: start;
+}
+.mails_page {
+  padding-bottom: 50px;
+}
+.mails_page_content_left {
+}
+.mails_page_content_search {
+  position: relative;
+  padding: 12px 0 0 20px;
+}
+.mails_page_content_search input {
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  width: 236px;
+  text-indent: 38px;
+  height: 40px;
+}
+.mails_page_content_search svg {
+  position: absolute;
+  left: 36px;
+  top: 26px;
+}
+.mails_page_content_users {
+  margin-top: 15px;
+  height: 680px;
+  overflow-x: auto;
+}
+.mails_page_content_user {
+  padding: 11px 12px 11px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.mails_page_content_user:hover {
+  transition: all 0.4s ease;
+  background: rgba(128, 128, 128, 0.164);
+}
+.mails_page_content_user img {
+  width: 57px;
+  height: 57px;
+}
+.mails_page_content_user p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mails_page_content_user span {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.create_dialog {
+  width: 236px;
+  height: 50px;
+  box-sizing: border-box;
+  /* Focus Color */
+  border: 2px solid rgb(47, 116, 250);
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  gap: 10px;
+}
+.create_dialog p {
+  color: rgb(58, 100, 250);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mails_page_content_right_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mails_page_content_right {
+  width: 100%;
+  max-width: 1240px;
+}
+.mails_page_content_right_top {
+  padding: 17px 52px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+.mails_page_content_right_members {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.mails_page_content_right_members p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mails_page_content_right_leave p {
+  cursor: pointer;
+  color: rgb(102, 102, 102);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mails_page_content_right_members svg {
+  cursor: pointer;
+}
+.mails_page_content_chat {
+  height: 610px;
+  padding: 25px 70px 0 50px;
+}
+.mails_page_content_chat_date p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-bottom: 28px;
+}
+.user_chat_message {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+.user_chat_message img {
+  width: 57px;
+  height: 57px;
+}
+.mails_chat_mess {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 501px;
+  padding: 13px 11px;
+}
+.mails_chat_mess_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mails_chat_mess_top p:first-child {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mails_chat_mess_top p:last-child {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.mails_chat_mess_text {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.mails_chat_mess_text p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-style: italic;
+}
+.mails_chat_mess_text_time p {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.my_mail_chat_message {
+  justify-content: flex-end;
+}
+.my_mail_chat_message .mails_chat_mess {
+  box-sizing: border-box;
+  border: 1px solid rgba(47, 116, 250, 0.5);
+  border-radius: 10px;
+}
+.mails_page_content_chat_input {
+  padding: 0 33px 0 27px;
+}
+.mails_page_content_chat_input input {
+  width: 100%;
+  height: 90px;
+  text-indent: 21px;
+  box-sizing: border-box;
+  border: 1px solid rgb(238, 242, 255);
+  border-top: 33px solid rgb(238, 242, 255);
+  border-radius: 10px;
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mails_page_content_chat_input_uploads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.mails_page_content_chat_input_upload_btn {
+  border-radius: 3px;
+  padding: 15px 20px;
+  /* Focus Color */
+  background: rgb(47, 116, 250);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mails_page_content_chat_input_upload_btn p {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mails_page_content_chat_input_uploads_left {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+}
+.mails_page_content_chat_input_uploads_left span {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}

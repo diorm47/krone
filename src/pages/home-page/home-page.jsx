@@ -8,6 +8,7 @@ import { ReactComponent as Bitcoin } from "../../assets/icons/bitcoin.svg";
 import { ReactComponent as BlockChat } from "../../assets/icons/block-chat.svg";
 import Switch from "../../components/switch/switch";
 import Footer from "../../components/footer/footer";
+import { NavLink } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -28,7 +29,9 @@ function HomePage() {
             <div className="forum_chat">
               <div className="forum_chat_messages">
                 <div className="forum_chat_user">
-                  <img src={avatar} alt="" />
+                  <NavLink to="/user">
+                    <img src={avatar} alt="" />
+                  </NavLink>
                   <div className="forum_chat_user_message">
                     <p>
                       <b>Mark:</b> Всем привет, я новенький!
@@ -36,7 +39,9 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="forum_chat_user">
-                  <img src={avatar} alt="" />
+                <NavLink to="/user">
+                    <img src={avatar} alt="" />
+                  </NavLink>
                   <div className="forum_chat_user_message">
                     <p>
                       <b>Vik:</b> Привет и Вам. Какой сегодня день? :)
@@ -49,7 +54,9 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="forum_chat_user">
-                  <img src={avatar} alt="" />
+                <NavLink to="/user">
+                    <img src={avatar} alt="" />
+                  </NavLink>
                   <div className="forum_chat_user_message">
                     <p>
                       <b>Ольга:</b> Всем привет, у вас тут очень весело,

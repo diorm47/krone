@@ -1,0 +1,379 @@
+.user_page_profile {
+  border-radius: 10px;
+  position: relative;
+  background: rgb(255, 255, 255);
+  margin-top: 40px;
+}
+
+.user_page_profile_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.complaint p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: right;
+  cursor: pointer;
+  position: relative;
+
+  padding-top: 20px;
+  padding-right: 32px;
+  z-index: 111;
+}
+
+.user_page_profile_content {
+  position: relative;
+  display: flex;
+  align-items: start;
+  margin-top: 60px;
+  padding-left: 43px;
+  padding-bottom: 28px;
+}
+.user_page_profile_content_left {
+  display: flex;
+  align-items: start;
+  gap: 18px;
+}
+.user_page_profile_content_username {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.user_page_profile_content_username p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.user_page_profile_content_prefix p,
+.user_activity_item_right_top p {
+  border-radius: 5px;
+  width: 111px;
+  height: 28px;
+  text-align: center;
+  padding-top: 4px;
+  /* Focus Color */
+  background: rgb(47, 116, 250);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+  letter-spacing: 0%;
+}
+
+.user_page_profile_content_prefix {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.user_page_profile_content_prefix svg {
+  width: 30px;
+  height: 30px;
+}
+.user_page_profile_content_status {
+  margin-top: 25px;
+}
+.user_page_profile_content_status p {
+  margin-bottom: 2px;
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.user_page_profile_content_status span {
+  color: rgb(120, 120, 120);
+}
+
+.blue {
+  color: rgb(47, 116, 250) !important;
+  cursor: pointer;
+}
+.user_page_profile_content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.user_page_profile_content_right {
+  display: flex;
+  align-items: center;
+  padding-right: 70px;
+  gap: 80px;
+  text-align: center;
+}
+.user_page_profile_content_right p {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.user_page_profile_content_right span {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.user_page_nav {
+  margin: 10px 0;
+  padding: 10px 27px;
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+.user_mes_reply {
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+.user_mes_reply_right {
+  width: 100%;
+}
+.user_mes_reply_right textarea {
+  width: 100%;
+  height: 148px;
+  box-sizing: border-box;
+  /* 1 */
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 10px;
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 23px;
+}
+
+.user_mes_reply_right .mails_page_content_chat_input_uploads_left {
+  align-items: center;
+}
+
+.user_profile_mess_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
+.user_profile_mess_left img {
+  width: 109px;
+  height: 109px;
+}
+
+.user_profile_mess_left p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: text;
+  margin-top: 15px;
+}
+.user_profile_mess {
+  display: flex;
+  align-items: start;
+  gap: 48px;
+}
+
+.user_profile_mess_right_top p {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.user_profile_mess_right {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.user_profile_mess_right_top {
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+.user_profile_mess_right_text p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.user_profile_mess_likes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  background: rgb(241, 241, 241);
+}
+.user_profile_mess_likes p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.user_profile_mess_actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.user_profile_mess_actions p {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
+
+.user_activity_item_img {
+  margin-right: 14px;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgb(197, 210, 255),
+    rgb(96, 130, 255) 100%
+  );
+}
+
+.user_activity_item {
+  display: flex;
+  align-items: center;
+}
+.user_activity_item_right_top {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.user_activity_item_right_top h4 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.user_activity_item_right_date p {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.user_activity_item {
+  margin-bottom: 20px;
+}
+.user_activity_item:last-child {
+  margin: 0;
+}
+
+.user_informations_title h4 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 18px;
+  margin-top: 17px;
+}
+.user_information_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.user_information_item span {
+  color: rgb(120, 120, 120);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 180px;
+}
+.user_information_item p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.inf_sigantures p {
+  color: rgb(0, 0, 0);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.user_informations {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.user_inf_follows {
+  box-sizing: border-box;
+  border: 1px solid rgb(201, 213, 254);
+  border-radius: 0px 0px 10px 10px;
+   padding: 46px 27px ;
+  background: rgb(250, 251, 255);
+  margin-bottom: 50px;
+}
+.user_inf_follow_list {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.user_inf_follow_list img {
+  width: 55px;
+height: 55px;
+}

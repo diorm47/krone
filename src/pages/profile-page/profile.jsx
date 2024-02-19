@@ -9,6 +9,8 @@ import Settings from "../profile-pages/settings";
 import Signature from "../profile-pages/signature";
 import Subscriptions from "../profile-pages/subscriptions";
 import Ignore from "../profile-pages/ignore";
+import Alerts from "../profile-pages/alerts";
+import Reactions from "../profile-pages/reactions";
 
 function ProfilePage() {
   return (
@@ -24,6 +26,8 @@ function ProfilePage() {
             <Route path="signature" element={<Signature />} />
             <Route path="subscriptions" element={<Subscriptions />} />
             <Route path="ignoring" element={<Ignore />} />
+            <Route path="alerts" element={<Alerts />} />
+            <Route path="reactions" element={<Reactions />} />
           </Routes>
         </div>
         <div className="profile_page_right">
@@ -34,7 +38,7 @@ function ProfilePage() {
           <NavLink to="">
             <p>Уведомления</p>
           </NavLink>
-          <NavLink to="">
+          <NavLink to="reactions">
             <p>Полученные реакции</p>
           </NavLink>
 

@@ -271,14 +271,14 @@
 }
 .subscriptions_page_title h3 {
   color: rgb(0, 0, 0);
-font-family: Open Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 30px;
-padding-left: 80px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 80px;
 }
 .subscriptions_page_cards {
   padding-left: 90px;
@@ -295,19 +295,75 @@ padding-left: 80px;
 }
 .subscriptions_page_card p {
   color: rgb(0, 0, 0);
-font-family: Open Sans;
-font-size: 15px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .subscriptions_page_card span {
   color: rgb(120, 120, 120);
-font-family: Open Sans;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.alerts_page_item {
+  display: flex;
+  align-items: start;
+  padding-left: 80px;
+  padding-right: 100px;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.alerts_page_item img {
+  width: 55px;
+  height: 55px;
+}
+.alerts_page_item p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.reactions_page {
+  padding-left: 81px;
+}
+.reactions_page_title h3 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reactions_page_date p {
+  margin-top: 17px;
+  margin-bottom: 6px;
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reactions_item p {
+  margin-bottom: 6px;
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
 }
