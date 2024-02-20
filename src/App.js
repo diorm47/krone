@@ -10,6 +10,7 @@ import UserPage from "./pages/user-page/user-page";
 import ThemesList from "./pages/themes-page/themes-list";
 import CreateTheme from "./pages/themes-page/create-theme";
 import ThemesSearch from "./pages/themes-page/theme-search";
+import NameShopPage from "./pages/name-shop-page/name-shop-page";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/themes-list" element={<ThemesList />} />
           <Route path="/create-theme" element={<CreateTheme />} />
           <Route path="/theme-search" element={<ThemesSearch />} />
+          <Route path="/name-of-shop" element={<NameShopPage />} />
 
           
 

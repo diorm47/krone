@@ -187,7 +187,7 @@ function NavBar() {
                     <NavLink to="">
                       <p>Мой профиль</p>
                     </NavLink>
-                    <NavLink to="">
+                    <NavLink to="/name-of-shop">
                       <p>Название магазина</p>
                     </NavLink>
                     <NavLink to="/profile/settings">
