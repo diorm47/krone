@@ -20,6 +20,16 @@
   text-align: center;
   margin-top: 100px;
 }
+.team_shop_text p {
+  color: rgb(30, 79, 174);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 27px;
+}
 .shop_banner_actions {
   padding-left: 123px;
   display: flex;
@@ -119,8 +129,7 @@
   text-align: left;
   margin-bottom: 16px;
 }
-.shops_page
-.main_block input {
+.shops_page .main_block input {
   width: 242px;
   height: 54px;
   border-radius: 10px;
@@ -188,7 +197,7 @@
   text-align: left;
 }
 .shops_page_about {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 .shops_page_about h3 {
   color: rgb(64, 64, 64);
@@ -202,12 +211,12 @@
 }
 
 .shops_page_about p {
-    color: rgb(128, 128, 128);
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 20px;
+  color: rgb(128, 128, 128);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/nav-bar/nav-bar";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import HomePage from "./pages/home-page/home-page";
 import ProfilePage from "./pages/profile-page/profile";
 import NotesPage from "./pages/notes-page/notes-page";
@@ -11,11 +11,24 @@ import ThemesList from "./pages/themes-page/themes-list";
 import CreateTheme from "./pages/themes-page/create-theme";
 import ThemesSearch from "./pages/themes-page/theme-search";
 import NameShopPage from "./pages/name-shop-page/name-shop-page";
+import Auth from "./pages/login-auth/auth";
+import Login from "./pages/login-auth/login";
+import Reset from "./pages/login-auth/reset";
+
 
 function App() {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <div className="App">
-      <NavBar />
+      {location.pathname !== "/auth" &&
+      location.pathname !== "/login" &&
+      location.pathname !== "/reset" ? (
+        <NavBar />
+      ) : (
+        ""
+      )}
+
       <div className="page_content">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -30,8 +43,9 @@ function App() {
           <Route path="/theme-search" element={<ThemesSearch />} />
           <Route path="/name-of-shop" element={<NameShopPage />} />
 
-          
-
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/reset" element={<Reset />} />
         </Routes>
       </div>
     </div>

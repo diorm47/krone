@@ -48,6 +48,9 @@ function TheShopsPage() {
               parturient montes, nascetur ridiculus mus.{" "}
             </p>
           </div>
+          <div className="team_shop_text">
+            <p>Команда магазина: Пользователь, Пользователь</p>
+          </div>
         </div>
         <div className="shops_page_title_right">
           <div className="main_block">
@@ -159,7 +162,10 @@ function TheShopsPage() {
               </div>
             </div>
           </div>
-          <div className="main_block_title main_block_title_second">
+       
+        </div>
+        <div className="main_block">
+        <div className="main_block_title main_block_title_second">
             <p>Автоматизированные магазины</p>
           </div>
           <div className="automative_shops">

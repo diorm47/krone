@@ -1,0 +1,144 @@
+.login_auth_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #eef2ff;
+}
+.login_auth_wrapper {
+  width: 564px;
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 116, 250);
+  border-radius: 20px;
+  padding: 80px 40px 40px;
+  background: rgb(255, 255, 255);
+}
+.login_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login_logo h2 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin: 20px 0 44px;
+  font-style: italic;
+}
+.login_input input {
+  border-radius: 10px;
+  height: 67px;
+  width: 100%;
+  background: rgb(248, 248, 248);
+  outline: none;
+  border: none;
+  text-indent: 18px;
+
+  font-family: Open Sans;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.login_input input::placeholder,
+.login_input input::-ms-input-placeholder {
+  color: rgb(164, 164, 164);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-style: italic;
+}
+
+.login_btn button {
+  border-radius: 3px;
+  border: none;
+  height: 72px;
+  width: 100%;
+  background: rgb(47, 116, 250);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+.switch_auth p {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+.switch_auth a,
+.recovery_link p {
+  color: rgb(47, 116, 250);
+}
+
+.recovery_link p {
+  margin-top: -10px;
+  color: rgb(47, 116, 250);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.otp_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+.otp_wrapper input {
+  width: 55.42px;
+  height: 67.93px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 66.11px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.otp_wrapper input::placeholder {
+  color: rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 66.11px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.recovery_pass_text p {
+    color: rgb(0, 0, 0);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 17px;
+}
