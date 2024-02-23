@@ -24,3 +24,12 @@ input, textarea, select {
 button {
   cursor: pointer;
 }
+
+
+@media only screen and (max-width: 1550px) {
+  .container {
+    width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+}

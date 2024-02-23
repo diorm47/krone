@@ -291,3 +291,114 @@ nav {
   letter-spacing: 0%;
   text-align: left;
 }
+.nav_mob_menu {
+  display: none;
+}
+
+.nav_mob_menu_modal {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding-top: 32px;
+  position: fixed;
+  z-index: 1111;
+  left: 0;
+  top: 0;
+  transition: all 0.4s ease;
+  transform: translateY(-100%);
+  min-height: 468px;
+  padding-bottom: 60px;
+}
+.nav_mob_menu_modal_visible {
+  transition: all 0.4s ease;
+  transform: translateY(0);
+}
+.nav_mob_menu_list_top_link_visible .nav_mob_menu_list_top_link_item p {
+  color: rgb(47, 116, 250);
+}
+.nav_mob_menu_list_top_link_visible .nav_mob_menu_list_top_link_item svg * {
+
+  stroke: rgb(47, 116, 250);
+}
+.nav_mob_menu_list_top_link_visible .nav_mob_menu_list_top_link_item svg {
+  transform: rotate(180deg);
+}
+.nav_mob_menu_top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 11;
+  padding: 0 20px 0 10px;
+  margin-bottom: 50px;
+}
+.nav_mob_menu_list p {
+  color: rgb(39, 39, 39);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.nav_mob_menu_list .nav_mob_menu_list_item {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.nav_mob_menu_list_top_link_item {
+  border-bottom: 1px solid rgb(240, 240, 240);
+  padding-bottom: 6px;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+.nav_mob_menu_list_top_link_item {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  justify-content: space-between;
+}
+.search_input_mob_menu {
+  padding: 0 18px;
+  margin-top: 15px;
+}
+.search_input_mob_menu input {
+  width: 100%;
+}
+.nav_mob_menu_list_top_link_menu {
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+.nav_mob_menu_list_top_link_menu p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 980px) {
+  .nav_left .nav_menu {
+    display: none;
+  }
+  .nav_right .search_input {
+    display: none;
+  }
+  .nav_mob_menu {
+    display: flex;
+    cursor: pointer;
+  }
+  .nav_left {
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav_logo svg {
+    width: 100px;
+  }
+}

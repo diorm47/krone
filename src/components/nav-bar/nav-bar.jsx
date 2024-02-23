@@ -6,6 +6,9 @@ import { ReactComponent as ArrowDownSec } from "../../assets/icons/arrow-down-se
 import { ReactComponent as Mail } from "../../assets/icons/mail.svg";
 import { ReactComponent as Notification } from "../../assets/icons/notification.svg";
 import { ReactComponent as Logout } from "../../assets/icons/logout-icon.svg";
+import { ReactComponent as NavMenu } from "../../assets/icons/nav-menu.svg";
+import { ReactComponent as NavMenuExit } from "../../assets/icons/exit-menu.svg";
+import { ReactComponent as NavMenuDropIcon } from "../../assets/icons/nav-menu-drop.svg";
 import { NavLink, useNavigate } from "react-router-dom";
 import profile from "../../assets/images/profile.png";
 
@@ -14,7 +17,7 @@ function NavBar() {
   const [notDrop, setNotDrop] = useState(false);
   const [profDrop, setProfDrop] = useState(false);
   const [menuDrop, setMenuDrop] = useState(false);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const closeDrops = () => {
     setMailsDrop(false);
@@ -23,14 +26,98 @@ function NavBar() {
     setMenuDrop(false);
   };
   const redirect = () => {
-   navigate('/theme-search')
-  }
+    navigate("/theme-search");
+  };
+
+  const [navMenu, setNavMenu] = useState(false);
+  const [navMenuDrop, setNavMenuDrop] = useState(false);
   return (
     <>
+      {navMenu ? (
+        <div className="overlay" onClick={() => setNavMenu(false)}></div>
+      ) : (
+        ""
+      )}
+      {/* mob menu */}
+      <div
+        className={
+          navMenu
+            ? "nav_mob_menu_modal nav_mob_menu_modal_visible"
+            : "nav_mob_menu_modal"
+        }
+      >
+        <div className="nav_mob_menu_top">
+          <NavMenuExit onClick={() => setNavMenu(false)} />
+          <NavLink to="/">
+            <Logo />
+          </NavLink>
+        </div>
+        <div className="nav_mob_menu_list">
+          <div
+            className={
+              navMenuDrop
+                ? "nav_mob_menu_list_top_link nav_mob_menu_list_top_link_visible"
+                : "nav_mob_menu_list_top_link"
+            }
+          >
+            <div
+              className="nav_mob_menu_list_top_link_item"
+              onClick={() => setNavMenuDrop(!navMenuDrop)}
+            >
+              <p>Главная</p>
+              <NavMenuDropIcon />
+            </div>
+            {navMenuDrop ? (
+              <div className="nav_mob_menu_list_top_link_menu">
+                <NavLink to="">
+                  <p>Новые сообщения</p>
+                </NavLink>
+                <NavLink to="">
+                  <p>Темы без ответов</p>
+                </NavLink>
+                <NavLink to="/themes-list">
+                  <p>Мои темы</p>
+                </NavLink>
+                <NavLink to="">
+                  <p>Отслеживаемые темы</p>
+                </NavLink>
+                <NavLink to="">
+                  <p>Темы с моими сообщениями</p>
+                </NavLink>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
+          <div className="nav_mob_menu_list_item">
+            <NavLink to="/the-shops">
+              <p>Магазины</p>
+            </NavLink>
+          </div>
+          <div className="nav_mob_menu_list_item">
+            <NavLink to="/notes">
+              <p>Записки</p>
+            </NavLink>
+          </div>
+        </div>
+        <div className="search_input_mob_menu">
+          <input
+            type="text"
+            placeholder="Поиск"
+            className="search_input"
+            onChange={redirect}
+          />
+        </div>
+      </div>
+
+      {/* navbar */}
       <nav>
         <div className="container nav_wrapper">
           <div className="nav_left">
-            <NavLink to="/">
+            <div className="nav_mob_menu">
+              <NavMenu onClick={() => setNavMenu(true)} />
+            </div>
+            <NavLink to="/" className='nav_logo'>
               <Logo />
             </NavLink>
             <div className="nav_menu">
@@ -79,7 +166,12 @@ function NavBar() {
             </div>
           </div>
           <div className="nav_right">
-            <input type="text" placeholder="Поиск" className="search_input" onChange={redirect}/>
+            <input
+              type="text"
+              placeholder="Поиск"
+              className="search_input"
+              onChange={redirect}
+            />
             <div className="nav_right_actions">
               <div className="nav_mails">
                 <div

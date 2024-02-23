@@ -1,7 +1,8 @@
 .themes_list_top {
   margin-top: 40px;
 }
-.create_theme_page, .themes_list_page {
+.create_theme_page,
+.themes_list_page {
   margin-bottom: 150px;
 }
 .themes_list_top_titles {
@@ -250,4 +251,53 @@
 .create_theme_btn_create {
   justify-content: start;
   margin-top: 90px;
+}
+
+@media only screen and (max-width: 500px) {
+  .create_theme_btn {
+    justify-content: start;
+    margin-top: 12px;
+  }
+  .themes_list_item {
+    padding: 0;
+  }
+  .themes_list_item .themes_block_item_left {
+    flex-direction: row;
+  }
+  .themes_list_block_left_det_top {
+    flex-direction: column;
+    align-items: start;
+  }
+  .themes_list_block_left_det {
+    width: 70%;
+  }
+  .themes_block_item_center {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .themes_block_item_right {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .themes_block_item_right_time p {
+    text-align: left !important;
+  }
+  .themes_list_block {
+    background: transparent !important;
+    padding: 0 !important;
+  }
+  .themes_list_item {
+    border-radius: 10.01px;
+    padding: 30px 18px;
+    box-shadow: 0px 4px 20px 0px rgba(50, 94, 251, 0.25);
+    background: rgb(255, 255, 255);
+  }
+  .create_theme_prefixes {
+    gap: 16px;
+    flex-direction: column;
+  }
+  .create_theme_btn button {
+    width: 100%;
+  }
+  
 }
