@@ -52,12 +52,7 @@ function TheShopsPage() {
             <p>Команда магазина: Пользователь, Пользователь</p>
           </div>
         </div>
-        <div className="shops_page_title_right">
-          <div className="main_block">
-            <h2>Команда магазина</h2>
-            <input type="text" name="" id="" placeholder="Имя пользователя" />
-          </div>
-        </div>
+
       </div>
       <div className="shops_page_themes">
         <div className="main_block">
@@ -164,7 +159,7 @@ function TheShopsPage() {
           </div>
        
         </div>
-        <div className="main_block">
+        <div className="main_block automative_shops_block">
         <div className="main_block_title main_block_title_second">
             <p>Автоматизированные магазины</p>
           </div>

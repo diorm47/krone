@@ -367,3 +367,101 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+@media only screen and (max-width: 1550px) {
+  .profile_page_view {
+    gap: 30px;
+  }
+  .profile_page_left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .information_item_left,
+  .information_item_right {
+    width: 50%;
+  }
+  .information_item_right input,
+  .information_item_right textarea {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile_page_view {
+    flex-direction: column-reverse;
+  }
+  .information_item_left,
+  .information_item_right {
+    width: auto;
+  }
+  .information_item {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .information_item_left,
+  .information_item_right,
+  .information_item_right input,
+  .information_item_right textarea {
+    width: 100%;
+  }
+  .information_item_left p {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 800px) { 
+  .subscriptions_page_cards {
+    padding: 0;
+  }
+  .subscriptions_page_title h3 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .save_btn {
+    width: 100%;
+  }
+  .profile_page_left {
+    padding-bottom: 30px;
+  }
+  .twopoint_auth {
+    flex-direction: column;
+    align-items: start;
+  }
+  .twopoint_auth_active {
+    padding-left: 0 !important;
+  }
+  .css-b62m3t-container {
+    width: 100%;
+    height: 40px;
+  }
+
+  .confudency_top input {
+    width: 17px;
+    height: 17px;
+  }
+  .settings_profile_chex .information_item_left,
+  .settings_profile_chex_title p {
+    padding-left: 0;
+  }
+  .settings_profile_chex .information_item {
+    gap: 10px;
+  }
+  .settings_profile_chex .information_item_left {
+    width: 100%;
+  }
+  .signature_page {
+    padding: 0;
+  }
+  .signature_page_textarea {
+    height: 210px;
+  }
+  .subscriptions_page_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile_page_right {
+    padding: 30px 20px;
+  }
+}

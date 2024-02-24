@@ -5,7 +5,7 @@
   padding-top: 50px;
   margin-bottom: 50px;
 }
-.profile_page  {
+.profile_page {
   padding-top: 30px;
 }
 .profile_page_left {
@@ -44,6 +44,17 @@
   text-align: left;
   margin-bottom: 5px;
 }
-.mt_20px{
+.mt_20px {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile_page_view {
+    flex-direction: column-reverse;
+  }
+  .profile_page_left,
+  .profile_page_right {
+    width: 100%;
+    max-width: 100% !important;
+  }
 }

@@ -157,11 +157,14 @@ function NavBar() {
                 )}
               </div>
 
-              <NavLink to="/the-shops">
+              <NavLink to="/the-shops" className='nav_desc_link'>
                 <p>Магазины</p>
+                <div className="active_line"></div>
               </NavLink>
-              <NavLink to="/notes">
+              <NavLink to="/notes"  className='nav_desc_link'>
                 <p>Записки</p>
+                <div className="active_line"></div>
+
               </NavLink>
             </div>
           </div>

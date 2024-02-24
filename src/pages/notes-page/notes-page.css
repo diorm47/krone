@@ -95,3 +95,25 @@
   margin-top: 40px;
   background: rgb(47, 116, 250);
 }
+
+
+@media only screen and (max-width: 800px) {
+  .notes_page_left .main_block {
+    padding: 30px 20px;
+  }
+  .notes_page_content_chex_bottom {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .notes_page_content_top {
+    flex-direction: column;
+    align-items: start;
+  }
+  .upload_note_btn {
+    width: 100%;
+  }
+}

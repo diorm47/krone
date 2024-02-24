@@ -71,7 +71,33 @@ nav {
 .nav_mails {
   position: relative;
 }
+.nav_menu .active p {
+  color: rgb(47, 116, 250);
+}
+.active_line {
+  width: 87px;
+  height: 4px;
+  background: rgb(47, 116, 250);
+  position: absolute;
+  bottom: -31px;
 
+}
+.nav_desc_link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav_desc_link .active_line {
+  display: none;
+}
+.nav_menu .active .active_line {
+  display: block;
+}
+.nav_menu .active svg * {
+  fill: rgb(47, 116, 250);
+}
 .nav_bar_drop {
   border-radius: 10px 10px 30px 30px;
   position: absolute;
@@ -316,7 +342,6 @@ nav {
   color: rgb(47, 116, 250);
 }
 .nav_mob_menu_list_top_link_visible .nav_mob_menu_list_top_link_item svg * {
-
   stroke: rgb(47, 116, 250);
 }
 .nav_mob_menu_list_top_link_visible .nav_mob_menu_list_top_link_item svg {

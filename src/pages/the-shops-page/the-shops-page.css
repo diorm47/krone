@@ -220,3 +220,106 @@
   text-align: left;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+  .shop_banner_text {
+    color: rgb(47, 116, 250);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .shop_banner_actions {
+    margin-top: 25px;
+    padding-left: 20px;
+  }
+  .shops_page_title_left_top {
+    flex-wrap: wrap;
+  }
+  .shop_banner_actions_logo {
+    width: 56px;
+    border-radius: 10px;
+    margin-right: 14px;
+    background: rgb(47, 116, 250);
+    height: 56px;
+  }
+  .shop_banner_actions_logo p {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 92.5%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .shop_banner {
+    height: 104px;
+  }
+
+  .shops_page .themes_block_item {
+    align-items: start;
+    box-sizing: border-box;
+    border: 1px solid rgb(47, 116, 250);
+    border-radius: 10.01px;
+    padding: 30px 18px;
+    background: rgb(255, 255, 255);
+  }
+  .shops_page_themes .main_block {
+    padding: 0;
+    background: #eef2ff;
+    box-shadow: none;
+  }
+  .shops_page_themes .main_block_title {
+    width: 100%;
+    justify-content: center;
+  }
+  .shops_page_themes .main_block_title p {
+    text-align: center !important;
+    color: rgb(64, 64, 64);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 32px;
+  }
+  .automative_shops {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .automative_shops_block {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255) !important;
+  }
+  .automative_shops_block .main_block_title_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .main_block_title_second p {
+    text-align: center;
+  }
+  .shops_page_themes .main_block {
+    padding: 0 !important;
+  }
+  .shops_page_themes
+  .themes_block_item_right {
+    display: flex;
+    flex-direction: column;
+  }
+  .shop_theme_btn {
+    margin: 0;
+  }
+}
