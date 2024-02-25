@@ -1,5 +1,5 @@
 import React from "react";
-import "./the-shops-page.css";
+import "./the-shops-page.css";import avatar from "../../assets/images/profile.png";
 import Carousel from "../../components/carousel/carousel";
 import { ReactComponent as ShopAction1 } from "../../assets/icons/shop-action-1.svg";
 import { ReactComponent as ShopAction2 } from "../../assets/icons/shop-action-2.svg";
@@ -15,9 +15,7 @@ function TheShopsPage() {
       <div className="shop_banner">
         <h2 className="shop_banner_text">Место для баннера</h2>
         <div className="shop_banner_actions">
-          <div className="shop_banner_actions_logo">
-            <p>logo</p>
-          </div>
+       
           <div className="shop_banner_actions_list">
             <ShopAction1 />
             <ShopAction2 />
@@ -73,7 +71,7 @@ function TheShopsPage() {
               </div>
               <div className="themes_block_item_center">
                 <div>
-                  <span>Темы</span>
+                  <span>Просмотры</span>
                   <p>12</p>
                 </div>
                 <div>
@@ -105,7 +103,7 @@ function TheShopsPage() {
               </div>
               <div className="themes_block_item_center">
                 <div>
-                  <span>Темы</span>
+                  <span>Просмотры</span>
                   <p>12</p>
                 </div>
                 <div>
@@ -137,7 +135,7 @@ function TheShopsPage() {
               </div>
               <div className="themes_block_item_center">
                 <div>
-                  <span>Темы</span>
+                  <span>Просмотры</span>
                   <p>12</p>
                 </div>
                 <div>
@@ -159,55 +157,34 @@ function TheShopsPage() {
           </div>
        
         </div>
-        <div className="main_block automative_shops_block">
-        <div className="main_block_title main_block_title_second">
-            <p>Автоматизированные магазины</p>
+        <div className="main_block">
+            <div className="main_block_secondary_title">
+              <p>Команда магазина</p>
+            </div>
+            <div className="online_command">
+              <div className="online_command_item">
+                <img src={avatar} alt="" />
+                <div>
+                  <p>Vik</p>
+                  <span>Администратор</span>
+                </div>
+              </div>
+              <div className="online_command_item">
+                <img src={avatar} alt="" />
+                <div>
+                  <p>Vik</p>
+                  <span>Администратор</span>
+                </div>
+              </div>
+              <div className="online_command_item">
+                <img src={avatar} alt="" />
+                <div>
+                  <p>Vik</p>
+                  <span>Администратор</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="automative_shops">
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-            <p>Название магазина</p>
-          </div>
-        </div>
       </div>
       <div className="shops_page_about">
         <h3>О магазине</h3>

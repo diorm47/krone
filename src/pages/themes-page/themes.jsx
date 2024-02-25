@@ -7,7 +7,7 @@ import { ReactComponent as BlockChat } from "../../assets/icons/block-chat.svg";
 import avatar from "../../assets/images/profile.png";
 import { NavLink } from "react-router-dom";
 
-function ThemesList() {
+function Themes() {
   return (
     <div className="themes_list_page container">
       <div className="default_carousel_top">
@@ -17,7 +17,7 @@ function ThemesList() {
         <div className="themes_list_top_titles">
           <p>Форум</p>
           <ArrowRight />
-          <p>Магазины</p>
+          <p>Название раздела</p>
         </div>
         <div className="themes_list_top_title">
           <i>
@@ -28,11 +28,6 @@ function ThemesList() {
           <p>
             <b>1</b> 2 3 ... 35 <ArrowLeft /> <ArrowRight />
           </p>
-        </div>
-        <div className="create_theme_btn">
-          <NavLink to="/create-theme">
-            <button>Создать тему</button>
-          </NavLink>
         </div>
       </div>
       <div className="main_block themes_list_block">
@@ -337,4 +332,4 @@ function ThemesList() {
   );
 }
 
-export default ThemesList;
+export default Themes;

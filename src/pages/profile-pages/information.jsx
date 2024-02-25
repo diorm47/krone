@@ -71,14 +71,7 @@ function Information() {
           <input type="text" value="Member" />
         </div>
       </div>
-      <div className="information_item">
-        <div className="information_item_left">
-          <p>Кошелек BTC:</p>
-        </div>
-        <div className="information_item_right">
-          <input type="text" value="Member" />
-        </div>
-      </div>
+
 
       <div className="information_item">
         <div className="information_item_left">

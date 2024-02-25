@@ -69,19 +69,19 @@ function NavBar() {
             </div>
             {navMenuDrop ? (
               <div className="nav_mob_menu_list_top_link_menu">
-                <NavLink to="">
+                <NavLink to="/themes">
                   <p>Новые сообщения</p>
                 </NavLink>
-                <NavLink to="">
+                <NavLink to="/themes">
                   <p>Темы без ответов</p>
                 </NavLink>
                 <NavLink to="/themes-list">
                   <p>Мои темы</p>
                 </NavLink>
-                <NavLink to="">
+                <NavLink to="/themes">
                   <p>Отслеживаемые темы</p>
                 </NavLink>
-                <NavLink to="">
+                <NavLink to="/themes">
                   <p>Темы с моими сообщениями</p>
                 </NavLink>
               </div>
@@ -136,19 +136,19 @@ function NavBar() {
                     className="home_nav_links_drop"
                     onClick={() => setMenuDrop(false)}
                   >
-                    <NavLink to="">
+                    <NavLink to="/themes">
                       <p>Новые сообщения</p>
                     </NavLink>
-                    <NavLink to="">
+                    <NavLink to="/themes">
                       <p>Темы без ответов</p>
                     </NavLink>
                     <NavLink to="/themes-list">
                       <p>Мои темы</p>
                     </NavLink>
-                    <NavLink to="">
+                    <NavLink to="/themes">
                       <p>Отслеживаемые темы</p>
                     </NavLink>
-                    <NavLink to="">
+                    <NavLink to="/themes">
                       <p>Темы с моими сообщениями</p>
                     </NavLink>
                   </div>
@@ -276,10 +276,8 @@ function NavBar() {
                   <div className="nav_profile_drop_links">
                     <p>0.0000000 BTC</p>
 
-                    <NavLink to="">
-                      <p>Мои заказы</p>
-                    </NavLink>
-                    <NavLink to="">
+              
+                    <NavLink to="/user">
                       <p>Мой профиль</p>
                     </NavLink>
                     <NavLink to="/name-of-shop">

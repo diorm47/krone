@@ -14,6 +14,7 @@ import NameShopPage from "./pages/name-shop-page/name-shop-page";
 import Auth from "./pages/login-auth/auth";
 import Login from "./pages/login-auth/login";
 import Reset from "./pages/login-auth/reset";
+import Themes from "./pages/themes-page/themes";
 
 
 function App() {
@@ -46,6 +47,9 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/login" element={<Login />} />
           <Route path="/reset" element={<Reset />} />
+          <Route path="/themes" element={<Themes />} />
+
+          
         </Routes>
       </div>
     </div>

@@ -22,6 +22,10 @@
   line-height: 20px;
   letter-spacing: 0%;
 }
+.shop_name_theme_item
+.themes_block_item_center  {
+  gap: 10px;
+}
 .name_shop_area p {
   margin-bottom: 10px;
 }

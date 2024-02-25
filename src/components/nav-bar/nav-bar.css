@@ -65,7 +65,7 @@ nav {
   height: 100vh;
   background: #00000057;
   z-index: 111;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 .nav_mails {

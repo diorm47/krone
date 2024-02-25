@@ -12,6 +12,7 @@ import { ReactComponent as Delete } from "../../assets/icons/shop-name/delete.sv
 import { ReactComponent as Edit } from "../../assets/icons/shop-name/edit.svg";
 import { ReactComponent as Hide } from "../../assets/icons/shop-name/hide.svg";
 import { ReactComponent as AddTheme } from "../../assets/icons/add-shop-item.svg";
+import { NavLink } from "react-router-dom";
 
 function NameShopPage() {
   return (
@@ -37,7 +38,6 @@ function NameShopPage() {
                 <p>ID пользователя:</p>
                 <div>
                   <input type="text" placeholder="ID пользователя:" />
-                  <Trash />
                 </div>
               </div>
               <div className="name_shop_input">
@@ -99,7 +99,7 @@ function NameShopPage() {
                   </div>
                   <div className="themes_block_item_center">
                     <div>
-                      <span>Темы</span>
+                      <span>Просмотры</span>
                       <p>12</p>
                     </div>
                     <div>
@@ -145,7 +145,7 @@ function NameShopPage() {
                   </div>
                   <div className="themes_block_item_center">
                     <div>
-                      <span>Темы</span>
+                      <span>Просмотры</span>
                       <p>12</p>
                     </div>
                     <div>
@@ -191,7 +191,7 @@ function NameShopPage() {
                   </div>
                   <div className="themes_block_item_center">
                     <div>
-                      <span>Темы</span>
+                      <span>Просмотры</span>
                       <p>12</p>
                     </div>
                     <div>
@@ -226,11 +226,15 @@ function NameShopPage() {
             </div>
           </div>
           <div className="name_shop_actions">
-            <AddTheme />
-            <button class="save_btn upload_note_btn">Загрузить</button>
-            <button class="create_dialog">
-              <p>Профиль магазина</p>
-            </button>
+            <NavLink to="/create-theme">
+              <AddTheme />
+            </NavLink>
+            <button class="save_btn upload_note_btn">Сохранить</button>
+            <NavLink to="/the-shops">
+              <button class="create_dialog">
+                <p>Профиль магазина</p>
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
