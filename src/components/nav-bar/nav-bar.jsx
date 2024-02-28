@@ -4,7 +4,9 @@ import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { ReactComponent as ArrowDown } from "../../assets/icons/arrow-down.svg";
 import { ReactComponent as ArrowDownSec } from "../../assets/icons/arrow-down-secondary.svg";
 import { ReactComponent as Mail } from "../../assets/icons/mail.svg";
+import { ReactComponent as MailFilled } from "../../assets/icons/mail-filled.svg";
 import { ReactComponent as Notification } from "../../assets/icons/notification.svg";
+import { ReactComponent as NotificationFilled } from "../../assets/icons/notification-filled.svg";
 import { ReactComponent as Logout } from "../../assets/icons/logout-icon.svg";
 import { ReactComponent as NavMenu } from "../../assets/icons/nav-menu.svg";
 import { ReactComponent as NavMenuExit } from "../../assets/icons/exit-menu.svg";
@@ -182,7 +184,8 @@ function NavBar() {
                     mailsDrop ? "nav_icon nav_icon_active" : "nav_icon"
                   }
                 >
-                  <Mail />
+                  <Mail className="not_filled"/>
+                  <MailFilled className="filled_icon"/>
                 </div>
 
                 {mailsDrop ? (
@@ -218,7 +221,9 @@ function NavBar() {
                   onClick={() => setNotDrop(!notDrop)}
                   className={notDrop ? "nav_icon nav_icon_active" : "nav_icon"}
                 >
-                  <Notification />
+                
+                  <Notification className="not_filled"/>
+                  <NotificationFilled className="filled_icon"/>
                 </div>
 
                 {notDrop ? (

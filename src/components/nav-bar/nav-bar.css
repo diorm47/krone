@@ -267,7 +267,16 @@ nav {
   cursor: pointer;
   gap: 6px;
 }
-
+.filled_icon {
+  display: none;
+}
+.nav_icon_active .filled_icon {
+  display: block;
+}
+.nav_icon_active
+.not_filled {
+  display: none;
+}
 .nav_profile_drop_logout p {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
