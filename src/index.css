@@ -18,18 +18,55 @@ a {
   text-decoration: none;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   outline: none;
 }
 button {
   cursor: pointer;
 }
 
+.blue_btn,
+.save_btn,
+.mails_page_content_chat_input_upload_btn,
+.mails_page_content_chat_input_upload_btn {
+  transition: all 0.4s ease;
+}
+.blue_btn:hover,
+.save_btn:hover,
+.mails_page_content_chat_input_upload_btn:hover,
+.mails_page_content_chat_input_upload_btn {
+  transition: all 0.4s ease;
+  background: rgb(11, 83, 226);
+}
 
+.border_btn,
+.nav_menu p,
+.footer_menu p {
+  transition: all 0.4s ease;
+}
+.border_btn:hover {
+  transition: all 0.4s ease;
+  background: rgb(11, 83, 226);
+  color: #fff;
+}
+.border_btn:hover p {
+  color: #fff;
+}
+.border_btn:hover svg * {
+  fill: #fff;
+}
+.nav_menu p:hover,
+.home_nav_links_drop p:hover,
+.footer_menu p:hover {
+  transition: all 0.4s ease !important;
+  opacity: 0.7 !important;
+}
 @media only screen and (max-width: 1550px) {
   .container {
     width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

@@ -65,10 +65,14 @@
 }
 .shop_banner_actions_list svg {
   cursor: pointer;
+  width: 35px;
 }
-
+.themes_block_item:hover {
+  background: #eef2ff !important;
+  transition: all 0.4s ease;
+}
 .shops_page_title {
-  margin-top: 110px;
+  margin-top: 60px;
 }
 .shops_page_title_left_top {
   display: flex;

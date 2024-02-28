@@ -47,7 +47,7 @@ function TheShopsPage() {
             </p>
           </div>
           <div className="team_shop_text">
-            <p>Команда магазина: Пользователь, Пользователь</p>
+            <p>Моментальные магазины: Пользователь, Пользователь</p>
           </div>
         </div>
 
@@ -164,21 +164,21 @@ function TheShopsPage() {
             <div className="online_command">
               <div className="online_command_item">
                 <img src={avatar} alt="" />
-                <div>
+                <div className="online_command_item_desc">
                   <p>Vik</p>
                   <span>Администратор</span>
                 </div>
               </div>
               <div className="online_command_item">
                 <img src={avatar} alt="" />
-                <div>
+                <div className="online_command_item_desc">
                   <p>Vik</p>
                   <span>Администратор</span>
                 </div>
               </div>
               <div className="online_command_item">
                 <img src={avatar} alt="" />
-                <div>
+                <div className="online_command_item_desc">
                   <p>Vik</p>
                   <span>Администратор</span>
                 </div>

@@ -15,6 +15,12 @@ import Auth from "./pages/login-auth/auth";
 import Login from "./pages/login-auth/login";
 import Reset from "./pages/login-auth/reset";
 import Themes from "./pages/themes-page/themes";
+import NewMessages from "./pages/themes-list/new-messages";
+import MyThemes from "./pages/themes-list/my-themes";
+import MyThemesMes from "./pages/themes-list/my-themes-messages";
+import ThemesWith from "./pages/themes-list/themes-with";
+import TrackedThemes from "./pages/themes-list/tracked-themes";
+import Shops from "./pages/themes-list/shops";
 
 
 function App() {
@@ -48,6 +54,15 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/reset" element={<Reset />} />
           <Route path="/themes" element={<Themes />} />
+
+          {/*  */}
+          <Route path="/new-messages" element={<NewMessages />} />
+          <Route path="/my-themes" element={<MyThemes />} />
+          <Route path="/my-theme-messages" element={<MyThemesMes />} />
+          <Route path="/theme-without-answer" element={<ThemesWith />} />
+          <Route path="/tracked-themes" element={<TrackedThemes />} />
+          <Route path="/shops" element={<Shops />} />
+
 
           
         </Routes>

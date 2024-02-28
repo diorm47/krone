@@ -32,10 +32,10 @@ function ProfilePage() {
         </div>
         <div className="profile_page_right">
           <h3>Ваш аккаунт</h3>
-          <NavLink to="">
+          <NavLink to="/user">
             <p>Мой профиль</p>
           </NavLink>
-          <NavLink to="">
+          <NavLink to="/profile/alerts">
             <p>Уведомления</p>
           </NavLink>
           <NavLink to="reactions">

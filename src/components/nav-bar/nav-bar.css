@@ -39,10 +39,12 @@ nav {
 .search_input {
   width: 236px;
   height: 40px;
+  font-family: Open Sans;
   box-sizing: border-box;
   /* button */
   text-indent: 18px;
-  border: 1px solid rgb(228, 228, 228);
+  background: #f8f8f8;
+  border: none;
   border-radius: 10px;
 }
 
@@ -80,7 +82,6 @@ nav {
   background: rgb(47, 116, 250);
   position: absolute;
   bottom: -31px;
-
 }
 .nav_desc_link {
   position: relative;

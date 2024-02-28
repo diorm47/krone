@@ -112,7 +112,7 @@ function MailsPage() {
                   </div>
                 </div>
               </div>
-              <button className="create_dialog"  onClick={() => setModal(true)}>
+              <button className="create_dialog border_btn"  onClick={() => setModal(true)}>
                 <Dialog />
                 <p>Создать диалог</p>
               </button>

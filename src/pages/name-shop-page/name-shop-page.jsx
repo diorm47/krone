@@ -126,7 +126,9 @@ function NameShopPage() {
                   <div className="shop_name_theme_item_actions_list">
                     <Pin />
                     <Delete />
-                    <Edit />
+                    <NavLink to="/create-theme">
+                      <Edit />
+                    </NavLink>
                     <Hide />
                   </div>
                 </div>
@@ -231,7 +233,7 @@ function NameShopPage() {
             </NavLink>
             <button class="save_btn upload_note_btn">Сохранить</button>
             <NavLink to="/the-shops">
-              <button class="create_dialog">
+              <button class="create_dialog border_btn">
                 <p>Профиль магазина</p>
               </button>
             </NavLink>

@@ -186,7 +186,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.online_command_item div {
+.online_command_item .online_command_item_desc {
   display: flex;
   flex-direction: column;
 }
@@ -420,16 +420,20 @@
 
 .user_modal {
   width: 431px;
-  left: 50px;
-  top: 25px;
+  left: 42px;
+  top: 14px;
   display: flex;
   align-items: start;
   gap: 8px;
   height: 200px;
   border-radius: 10px;
+  z-index: 111;
   position: absolute;
   box-shadow: 0px 4px 100px 0px rgba(31, 31, 31, 0.5);
   background: rgb(47, 116, 250);
+}
+.user_modal:hover {
+  display: flex;
 }
 .user_modal_left {
   display: flex;
@@ -456,7 +460,7 @@
   padding-top: 18px;
 }
 .user_modal_right h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   margin-bottom: 9px;
   font-size: 16px;
   font-weight: 700;

@@ -64,24 +64,24 @@ function NavBar() {
               className="nav_mob_menu_list_top_link_item"
               onClick={() => setNavMenuDrop(!navMenuDrop)}
             >
-              <p>Главная</p>
+              <p>Форумы</p>
               <NavMenuDropIcon />
             </div>
             {navMenuDrop ? (
               <div className="nav_mob_menu_list_top_link_menu">
-                <NavLink to="/themes">
+                <NavLink to="/new-messages">
                   <p>Новые сообщения</p>
                 </NavLink>
-                <NavLink to="/themes">
+                <NavLink to="/theme-without-answer">
                   <p>Темы без ответов</p>
                 </NavLink>
-                <NavLink to="/themes-list">
+                <NavLink to="/my-themes">
                   <p>Мои темы</p>
                 </NavLink>
-                <NavLink to="/themes">
+                <NavLink to="/tracked-themes">
                   <p>Отслеживаемые темы</p>
                 </NavLink>
-                <NavLink to="/themes">
+                <NavLink to="/my-theme-messages">
                   <p>Темы с моими сообщениями</p>
                 </NavLink>
               </div>
@@ -90,7 +90,7 @@ function NavBar() {
             )}
           </div>
           <div className="nav_mob_menu_list_item">
-            <NavLink to="/the-shops">
+            <NavLink to="/shops">
               <p>Магазины</p>
             </NavLink>
           </div>
@@ -117,7 +117,7 @@ function NavBar() {
             <div className="nav_mob_menu">
               <NavMenu onClick={() => setNavMenu(true)} />
             </div>
-            <NavLink to="/" className='nav_logo'>
+            <NavLink to="/" className="nav_logo">
               <Logo />
             </NavLink>
             <div className="nav_menu">
@@ -127,7 +127,7 @@ function NavBar() {
                     className="home_nav_link_link"
                     onClick={() => setMenuDrop(true)}
                   >
-                    <p>Главная</p>
+                    <p>Форумы</p>
                     <ArrowDown />
                   </div>
                 </NavLink>
@@ -136,19 +136,19 @@ function NavBar() {
                     className="home_nav_links_drop"
                     onClick={() => setMenuDrop(false)}
                   >
-                    <NavLink to="/themes">
+                    <NavLink to="/new-messages">
                       <p>Новые сообщения</p>
                     </NavLink>
-                    <NavLink to="/themes">
+                    <NavLink to="/theme-without-answer">
                       <p>Темы без ответов</p>
                     </NavLink>
-                    <NavLink to="/themes-list">
+                    <NavLink to="/my-themes">
                       <p>Мои темы</p>
                     </NavLink>
-                    <NavLink to="/themes">
+                    <NavLink to="/tracked-themes">
                       <p>Отслеживаемые темы</p>
                     </NavLink>
-                    <NavLink to="/themes">
+                    <NavLink to="/my-theme-messages">
                       <p>Темы с моими сообщениями</p>
                     </NavLink>
                   </div>
@@ -157,14 +157,13 @@ function NavBar() {
                 )}
               </div>
 
-              <NavLink to="/the-shops" className='nav_desc_link'>
+              <NavLink to="/shops" className="nav_desc_link">
                 <p>Магазины</p>
                 <div className="active_line"></div>
               </NavLink>
-              <NavLink to="/notes"  className='nav_desc_link'>
+              <NavLink to="/notes" className="nav_desc_link">
                 <p>Записки</p>
                 <div className="active_line"></div>
-
               </NavLink>
             </div>
           </div>
@@ -276,7 +275,6 @@ function NavBar() {
                   <div className="nav_profile_drop_links">
                     <p>0.0000000 BTC</p>
 
-              
                     <NavLink to="/user">
                       <p>Мой профиль</p>
                     </NavLink>
