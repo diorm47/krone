@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./nav-bar.css";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { ReactComponent as ArrowDown } from "../../assets/icons/arrow-down.svg";
@@ -21,18 +21,13 @@ function NavBar() {
   const [menuDrop, setMenuDrop] = useState(false);
   const navigate = useNavigate();
 
-  const closeDrops = () => {
-    setMailsDrop(false);
-    setNotDrop(false);
-    setProfDrop(false);
-    setMenuDrop(false);
-  };
   const redirect = () => {
     navigate("/theme-search");
   };
 
   const [navMenu, setNavMenu] = useState(false);
   const [navMenuDrop, setNavMenuDrop] = useState(false);
+
   return (
     <>
       {navMenu ? (
@@ -127,7 +122,7 @@ function NavBar() {
                 <NavLink to="/">
                   <div
                     className="home_nav_link_link"
-                    onClick={() => setMenuDrop(true)}
+                    onMouseEnter={() => setMenuDrop(true)}
                   >
                     <p>Форумы</p>
                     <ArrowDown />
@@ -137,6 +132,8 @@ function NavBar() {
                   <div
                     className="home_nav_links_drop"
                     onClick={() => setMenuDrop(false)}
+                    onMouseEnter={() => setMenuDrop(true)}
+                    onMouseLeave={() => setMenuDrop(false)}
                   >
                     <NavLink to="/new-messages">
                       <p>Новые сообщения</p>
@@ -179,19 +176,20 @@ function NavBar() {
             <div className="nav_right_actions">
               <div className="nav_mails">
                 <div
-                  onClick={() => setMailsDrop(!mailsDrop)}
+                  onMouseEnter={() => setMailsDrop(true)}
                   className={
                     mailsDrop ? "nav_icon nav_icon_active" : "nav_icon"
                   }
                 >
-                  <Mail className="not_filled"/>
-                  <MailFilled className="filled_icon"/>
+                  <Mail className="not_filled" />
+                  <MailFilled className="filled_icon" />
                 </div>
 
                 {mailsDrop ? (
                   <div
                     className="nav_bar_drop"
-                    onClick={() => setMailsDrop(!mailsDrop)}
+                    onClick={() => setMailsDrop(false)}
+                    onMouseLeave={() => setMailsDrop(false)}
                   >
                     <div className="nav_bar_drop_title">
                       <p>Переписки</p>
@@ -218,18 +216,18 @@ function NavBar() {
               </div>
               <div className="nav_notifications">
                 <div
-                  onClick={() => setNotDrop(!notDrop)}
+                  onMouseEnter={() => setNotDrop(true)}
                   className={notDrop ? "nav_icon nav_icon_active" : "nav_icon"}
                 >
-                
-                  <Notification className="not_filled"/>
-                  <NotificationFilled className="filled_icon"/>
+                  <Notification className="not_filled" />
+                  <NotificationFilled className="filled_icon" />
                 </div>
 
                 {notDrop ? (
                   <div
                     className="nav_bar_drop nots_drop"
-                    onClick={() => setNotDrop(!notDrop)}
+                    onClick={() => setNotDrop(false)}
+                    onMouseLeave={() => setNotDrop(false)}
                   >
                     <div className="nav_bar_drop_title">
                       <p>Оповещения</p>
@@ -266,7 +264,7 @@ function NavBar() {
             <div className="nav_profile">
               <div
                 className="nav_profile_items"
-                onClick={() => setProfDrop(true)}
+                onMouseEnter={() => setProfDrop(true)}
               >
                 <img src={profile} alt="" />
                 <ArrowDownSec />
@@ -276,6 +274,7 @@ function NavBar() {
                 <div
                   className="nav_profile_drop"
                   onClick={() => setProfDrop(false)}
+                  onMouseLeave={() => setProfDrop(false)}
                 >
                   <div className="nav_profile_drop_links">
                     <p>0.0000000 BTC</p>
@@ -308,11 +307,6 @@ function NavBar() {
           </div>
         </div>
       </nav>
-      {mailsDrop || notDrop || profDrop || menuDrop ? (
-        <div className="overlay" onClick={closeDrops}></div>
-      ) : (
-        ""
-      )}
     </>
   );
 }
