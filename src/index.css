@@ -30,20 +30,25 @@ button {
 .blue_btn,
 .save_btn,
 .mails_page_content_chat_input_upload_btn,
-.mails_page_content_chat_input_upload_btn {
+.mails_page_content_chat_input_upload_btn,
+.user_page_profile_content_prefix p,
+.user_activity_item_right_top p {
   transition: all 0.4s ease;
 }
 .blue_btn:hover,
 .save_btn:hover,
 .mails_page_content_chat_input_upload_btn:hover,
-.mails_page_content_chat_input_upload_btn {
+.mails_page_content_chat_input_upload_btn,
+.user_page_profile_content_prefix p:hover,
+.user_activity_item_right_top p:hover {
   transition: all 0.4s ease;
   background: rgb(11, 83, 226);
 }
 
 .border_btn,
 .nav_menu p,
-.footer_menu p {
+.footer_menu p,
+.notes_page_upload svg {
   transition: all 0.4s ease;
 }
 .border_btn:hover {
@@ -59,9 +64,47 @@ button {
 }
 .nav_menu p:hover,
 .home_nav_links_drop p:hover,
-.footer_menu p:hover {
+.footer_menu p:hover,
+.notes_page_upload svg:hover {
   transition: all 0.4s ease !important;
   opacity: 0.7 !important;
+}
+
+.text_opacity_hover,
+.online_command_item p,
+.themes_list_block_left_det_top_title,
+.themes_block_item_left p,
+.themes_block_item_right_title p,
+.themes_block_item_right_time span,
+.themes_list_block_left_det span,
+.themes_block_item_right_time p {
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.text_opacity_hover:hover,
+.online_command_item p:hover,
+.themes_list_block_left_det_top_title:hover,
+.themes_block_item_left p:hover,
+.themes_block_item_right_title p:hover,
+.themes_block_item_right_time span:hover,
+.themes_list_block_left_det span:hover,
+.themes_block_item_right_time p:hover {
+  transition: all 0.4s ease;
+  opacity: 0.7;
+}
+input[type="text"],
+textarea {
+  transition: all 0.4s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  transition: all 0.4s ease;
+  border: 1px solid rgb(11, 83, 226) !important ;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
 }
 @media only screen and (max-width: 1550px) {
   .container {

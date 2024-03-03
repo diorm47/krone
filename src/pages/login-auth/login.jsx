@@ -19,7 +19,9 @@ function Login() {
           <div className="login_input">
             <input type="password" placeholder="Пароль" />
             <div className="recovery_link">
-              <p>Восстановить</p>
+              <NavLink to="/reset">
+                <p>Восстановить</p>
+              </NavLink>
             </div>
           </div>
 

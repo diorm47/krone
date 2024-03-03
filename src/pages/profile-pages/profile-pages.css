@@ -301,6 +301,12 @@
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.subscriptions_page_card p:hover {
+  transition: all 0.4s ease;
+  opacity: 0.7;
 }
 .subscriptions_page_card span {
   color: rgb(120, 120, 120);
@@ -380,7 +386,7 @@
   .information_item_right {
     width: 50%;
   }
-  .information_item_right input,
+
   .information_item_right textarea {
     width: 100%;
   }
@@ -400,7 +406,7 @@
   }
   .information_item_left,
   .information_item_right,
-  .information_item_right input,
+
   .information_item_right textarea {
     width: 100%;
   }
@@ -409,7 +415,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 800px) {
   .subscriptions_page_cards {
     padding: 0;
   }

@@ -80,16 +80,16 @@ function UserPage() {
       </div>
       <div className="main_block user_page_nav">
         <NavLink to="profile">
-          <p>Профиль</p>
+          <p className="text_opacity_hover">Профиль</p>
         </NavLink>
         <NavLink to="activity">
-          <p>Активность</p>
+          <p className="text_opacity_hover">Активность</p>
         </NavLink>
         <NavLink to="publications">
-          <p>Публикации</p>
+          <p className="text_opacity_hover">Публикации</p>
         </NavLink>
         <NavLink to="informations">
-          <p>Информация</p>
+          <p className="text_opacity_hover">Информация</p>
         </NavLink>
       </div>
       <div className="user_pages_content">

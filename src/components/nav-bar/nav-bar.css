@@ -47,6 +47,9 @@ nav {
   border: none;
   border-radius: 10px;
 }
+.search_input:focus {
+  width: 300px;
+}
 
 .nav_right_actions {
   display: flex;
@@ -89,6 +92,13 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.nav_desc_link:hover p {
+  color: rgb(47, 116, 250);
+}
+.nav_desc_link:hover .active_line {
+  display: block;
+
 }
 .nav_desc_link .active_line {
   display: none;
@@ -135,6 +145,16 @@ nav {
   display: flex;
   align-items: flex-start;
   gap: 14px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.not_drop_content{
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.not_drop_content:hover,
+.nav_bar_drop_content_top:hover {
+  opacity: 0.7;
 }
 .nav_bar_drop_content_top p {
   color: rgb(120, 120, 120);
@@ -165,6 +185,9 @@ nav {
   text-align: left;
   text-decoration-line: underline;
   margin-top: 14px;
+}
+.nav_bar_drop_content_link p:hover {
+  text-decoration: none;
 }
 
 .nav_icon {
@@ -255,6 +278,14 @@ nav {
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 15px;
+  transition: all 0.4s ease;
+}
+.nav_profile_drop_links p:hover {
+  transition: all 0.4s ease;
+  opacity: 0.6;
+}
+.nav_profile_drop_links .active p {
+  text-decoration: underline;
 }
 .nav_profile_drop_links p:first-child {
   margin-bottom: 23px;

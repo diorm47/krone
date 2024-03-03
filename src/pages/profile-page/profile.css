@@ -43,6 +43,14 @@
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 5px;
+  transition: all 0.4s ease;
+}
+.profile_page_right p:hover {
+  transition: all 0.4s ease;
+  opacity: 0.7;
+}
+.profile_page_right .active p {
+  text-decoration: underline;
 }
 .mt_20px {
   margin-top: 20px;

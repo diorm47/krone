@@ -221,6 +221,14 @@
   border: 1px solid rgb(47, 116, 250);
   border-radius: 5px;
 
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+
   background: rgb(255, 255, 255);
 }
 .currency_conv_item_name {

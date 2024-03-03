@@ -141,6 +141,9 @@
   align-items: center;
   gap: 72px;
 }
+.user_page_nav .active p {
+  opacity: 0.6;
+}
 .user_mes_reply {
   display: flex;
   align-items: center;
@@ -289,6 +292,13 @@
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.user_activity_item_right_date p:hover,
+.user_activity_item_right_top h4:hover {
+  transition: all 0.4s ease;
+  opacity: 0.7;
 }
 
 .user_activity_item_right_date p {
@@ -299,6 +309,8 @@
   line-height: 18px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.4s ease;
+  cursor: pointer;
   margin-top: 5px;
 }
 

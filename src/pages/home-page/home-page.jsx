@@ -244,7 +244,9 @@ function HomePage() {
               <div className="themes_block_item">
                 <div className="themes_block_item_left">
                   <BlockChat />
-                  <p>Название темы, для примера оно будет длинное ...</p>
+                  <NavLink to="/themes">
+                    <p>Название темы, для примера оно будет длинное ...</p>
+                  </NavLink>
                 </div>
                 <div className="themes_block_item_center">
                   <div>
@@ -270,7 +272,9 @@ function HomePage() {
               <div className="themes_block_item">
                 <div className="themes_block_item_left">
                   <BlockChat />
-                  <p>Название темы, для примера оно будет длинное ...</p>
+                  <NavLink to="/themes">
+                    <p>Название темы, для примера оно будет длинное ...</p>
+                  </NavLink>
                 </div>
                 <div className="themes_block_item_center">
                   <div>
@@ -296,7 +300,9 @@ function HomePage() {
               <div className="themes_block_item">
                 <div className="themes_block_item_left">
                   <BlockChat />
-                  <p>Название темы, для примера оно будет длинное ...</p>
+                  <NavLink to="/themes">
+                    <p>Название темы, для примера оно будет длинное ...</p>
+                  </NavLink>
                 </div>
                 <div className="themes_block_item_center">
                   <div>
@@ -342,7 +348,9 @@ function HomePage() {
               <div className="themes_block_item">
                 <div className="themes_block_item_left">
                   <BlockChat />
-                  <p>Название темы, для примера оно будет длинное ...</p>
+                  <NavLink to="/themes">
+                    <p>Название темы, для примера оно будет длинное ...</p>
+                  </NavLink>
                 </div>
                 <div className="themes_block_item_center">
                   <div>
@@ -368,7 +376,9 @@ function HomePage() {
               <div className="themes_block_item">
                 <div className="themes_block_item_left">
                   <BlockChat />
-                  <p>Название темы, для примера оно будет длинное ...</p>
+                  <NavLink to="/themes">
+                    <p>Название темы, для примера оно будет длинное ...</p>
+                  </NavLink>
                 </div>
                 <div className="themes_block_item_center">
                   <div>
@@ -394,7 +404,9 @@ function HomePage() {
               <div className="themes_block_item">
                 <div className="themes_block_item_left">
                   <BlockChat />
-                  <p>Название темы, для примера оно будет длинное ...</p>
+                  <NavLink to="/themes">
+                    <p>Название темы, для примера оно будет длинное ...</p>
+                  </NavLink>
                 </div>
                 <div className="themes_block_item_center">
                   <div>
@@ -653,9 +665,11 @@ function HomePage() {
                   <span>Bitcoin</span>
                 </div>
 
-                <div className="currency_conv_item_valu">
-                  <p>1</p>
-                </div>
+                <input
+                  type="text"
+                  value="1"
+                  className="currency_conv_item_valu"
+                />
               </div>
               <div className="currency_conv_item">
                 <div className="currency_conv_item_name">
@@ -663,9 +677,11 @@ function HomePage() {
                   <span>EURO</span>
                 </div>
 
-                <div className="currency_conv_item_valu">
-                  <p>9123.9123</p>
-                </div>
+                <input
+                  type="text"
+                  value="9123"
+                  className="currency_conv_item_valu"
+                />
               </div>
               <div className="currency_conv_item">
                 <div className="currency_conv_item_name">
@@ -673,18 +689,23 @@ function HomePage() {
                   <span>USD</span>
                 </div>
 
-                <div className="currency_conv_item_valu">
-                  <p>2193.1293</p>
-                </div>
+                <input
+                  type="text"
+                  value="2193"
+                  className="currency_conv_item_valu"
+                />
               </div>
               <div className="currency_conv_item">
                 <div className="currency_conv_item_name">
                   <Rub />
                   <span>RUB</span>
                 </div>
-                <div className="currency_conv_item_valu">
-                  <p>2193.1293</p>
-                </div>
+
+                <input
+                  type="text"
+                  value="2193"
+                  className="currency_conv_item_valu"
+                />
               </div>
             </div>
           </div>

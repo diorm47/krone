@@ -195,6 +195,7 @@ function NavBar() {
                       <p>Переписки</p>
                     </div>
                     <div className="nav_bar_drop_content">
+                    <NavLink to="/mails">
                       <div className="nav_bar_drop_content_top">
                         <img src={profile} alt="" />
                         <div>
@@ -203,6 +204,8 @@ function NavBar() {
                           <p>Сегодня: в 00:00</p>
                         </div>
                       </div>
+                      </NavLink>
+
                       <div className="nav_bar_drop_content_link">
                         <NavLink to="/mails">
                           <p>Показать всё</p>
@@ -233,6 +236,7 @@ function NavBar() {
                       <p>Оповещения</p>
                     </div>
                     <div className="nav_bar_drop_content">
+                    <NavLink to="/profile/alerts">
                       <div className="not_drop_content">
                         <div className="not_drop_content_top">
                           <div></div>
@@ -247,6 +251,7 @@ function NavBar() {
                           </p>
                         </div>
                       </div>
+                      </NavLink>
 
                       <div className="nav_bar_drop_content_link">
                         <NavLink to="/profile/alerts">

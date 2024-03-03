@@ -42,7 +42,7 @@ function Informations() {
         </div>
         <div className="user_information_item">
           <span>Чат:</span>
-          <p className="blue">Начать переписку</p>
+          <p className="blue text_opacity_hover">Начать переписку</p>
         </div>
         <div className="user_informations_title">
           <h4>Подпись</h4>
