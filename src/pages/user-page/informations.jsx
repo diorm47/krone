@@ -1,6 +1,7 @@
 import React from "react";
 import "./user-page.css";
 import ava from "../../assets/images/profile.png";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function Informations() {
   return (
@@ -60,31 +61,59 @@ function Informations() {
       </div>
       <div className="user_inf_follows">
         <div className="user_inf_follow_list">
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>
         </div>
         <div className="user_informations_title">
           <h4>Подписчики</h4>
         </div>
         <div className="user_inf_follow_list">
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
-          <img src={ava} alt="" />
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>{" "}
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>
+          <div className="user_link">
+            <img src={ava} alt="" />
+            <MiniUser />
+          </div>
         </div>
       </div>
     </>

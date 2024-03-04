@@ -98,7 +98,6 @@ nav {
 }
 .nav_desc_link:hover .active_line {
   display: block;
-
 }
 .nav_desc_link .active_line {
   display: none;
@@ -148,7 +147,7 @@ nav {
   transition: all 0.4s ease;
   cursor: pointer;
 }
-.not_drop_content{
+.not_drop_content {
   transition: all 0.4s ease;
   cursor: pointer;
 }
@@ -254,7 +253,6 @@ nav {
   position: relative;
 }
 .nav_profile_drop {
-
   width: 200px;
   z-index: 112;
   position: absolute;
@@ -306,8 +304,7 @@ nav {
 .nav_icon_active .filled_icon {
   display: block;
 }
-.nav_icon_active
-.not_filled {
+.nav_icon_active .not_filled {
   display: none;
 }
 .nav_profile_drop_logout p {
@@ -449,6 +446,49 @@ nav {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+.nav_auth_btns_desc {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav_auth_btns_desc button {
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 20px;
+
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.nav_auth_btn_login {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgb(47, 116, 250);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.nav_auth_btn_auth {
+  background: transparent;
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 116, 250);
+  border-radius: 10px;
+  color: rgb(47, 116, 250);
+}
+
+.nav_auth_btns_mob {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.nav_auth_btns_mob {
+  display: none;
+}
 @media only screen and (max-width: 980px) {
   .nav_left .nav_menu {
     display: none;
@@ -468,5 +508,11 @@ nav {
 @media only screen and (max-width: 500px) {
   .nav_logo svg {
     width: 100px;
+  }
+  .nav_auth_btns_desc {
+    display: none;
+  }
+  .nav_auth_btns_mob {
+    display: flex;
   }
 }

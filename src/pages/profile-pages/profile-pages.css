@@ -293,7 +293,7 @@
   align-items: center;
   gap: 13px;
 }
-.subscriptions_page_card p {
+.subscriptions_page_card p:nth-child(1) {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
   font-size: 15px;
@@ -330,15 +330,7 @@
   width: 55px;
   height: 55px;
 }
-.alerts_page_item p {
-  color: rgb(0, 0, 0);
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0%;
-  text-align: left;
-}
+
 
 .reactions_page {
   padding-left: 81px;
@@ -363,7 +355,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.reactions_item p {
+.reactions_item p:nth-child(1) {
   margin-bottom: 6px;
   color: rgb(0, 0, 0);
   font-family: Open Sans;

@@ -7,6 +7,7 @@ import { ReactComponent as ArrowLeft } from "../../assets/icons/arrow-left.svg";
 import { ReactComponent as BlockChat } from "../../assets/icons/block-chat.svg";
 import avatar from "../../assets/images/profile.png";
 import { NavLink } from "react-router-dom";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function MyThemesMes() {
   return (
@@ -40,9 +41,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -63,7 +66,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -77,9 +83,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -100,7 +108,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -114,9 +125,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -137,7 +150,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -151,9 +167,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -174,7 +192,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -188,9 +209,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -211,7 +234,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -225,9 +251,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -248,7 +276,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -262,9 +293,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -285,7 +318,10 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />
@@ -299,9 +335,11 @@ function MyThemesMes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
               <span>Member 12 Дек 2023</span>
             </div>
@@ -322,7 +360,52 @@ function MyThemesMes() {
                 <p>13 Дек 2023</p>
               </div>
               <div className="themes_block_item_right_time">
-                <p className="tar">Member</p>
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
+              </div>
+            </div>
+            <img src={avatar} alt="" />
+          </div>
+        </div>
+        <div className="themes_block_item themes_list_item">
+          <div className="themes_block_item_left">
+            <BlockChat />
+            <div className="themes_list_block_left_det">
+              <div className="themes_list_block_left_det_top">
+                <div className="shop_theme_btn">
+                  <p>Магазин</p>
+                </div>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
+              </div>
+              <span>Member 12 Дек 2023</span>
+            </div>
+          </div>
+          <div className="themes_block_item_center">
+            <div className="tal">
+              <span>Ответы:</span>
+              <p>Просмотры:</p>
+            </div>
+            <div className="tar">
+              <span>23</span>
+              <p>1.2К</p>
+            </div>
+          </div>
+          <div className="themes_block_item_right">
+            <div>
+              <div className="themes_block_item_right_title">
+                <p>13 Дек 2023</p>
+              </div>
+              <div className="themes_block_item_right_time">
+                <div className="user_link user_link_r">
+                  <p className="tar">Member</p>
+                  <MiniUser />
+                </div>
               </div>
             </div>
             <img src={avatar} alt="" />

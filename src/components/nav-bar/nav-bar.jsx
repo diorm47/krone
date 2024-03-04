@@ -8,6 +8,9 @@ import { ReactComponent as MailFilled } from "../../assets/icons/mail-filled.svg
 import { ReactComponent as Notification } from "../../assets/icons/notification.svg";
 import { ReactComponent as NotificationFilled } from "../../assets/icons/notification-filled.svg";
 import { ReactComponent as Logout } from "../../assets/icons/logout-icon.svg";
+import { ReactComponent as LoginIcon } from "../../assets/icons/login-icon.svg";
+import { ReactComponent as LoginMob } from "../../assets/icons/login-mob.svg";
+import { ReactComponent as AuthMOb } from "../../assets/icons/auth-mob.svg";
 import { ReactComponent as NavMenu } from "../../assets/icons/nav-menu.svg";
 import { ReactComponent as NavMenuExit } from "../../assets/icons/exit-menu.svg";
 import { ReactComponent as NavMenuDropIcon } from "../../assets/icons/nav-menu-drop.svg";
@@ -166,7 +169,7 @@ function NavBar() {
               </NavLink>
             </div>
           </div>
-          <div className="nav_right">
+          {/* <div className="nav_right authorized_nav_content">
             <input
               type="text"
               placeholder="Поиск"
@@ -308,6 +311,29 @@ function NavBar() {
               ) : (
                 ""
               )}
+            </div>
+          </div> */}
+          <div className="nav_right unauthorized_nav_content">
+            <div className="nav_auth_btns_desc">
+              <NavLink to="/login">
+                <button className="nav_auth_btn_login blue_btn">
+                  <LoginIcon />
+                  Войти
+                </button>
+              </NavLink>
+              <NavLink to="/auth">
+                <button className="nav_auth_btn_auth border_btn">
+                  Регистрация
+                </button>{" "}
+              </NavLink>
+            </div>
+            <div className="nav_auth_btns_mob">
+              <NavLink to="/login">
+                <LoginMob />
+              </NavLink>
+              <NavLink to="/auth">
+                <AuthMOb />
+              </NavLink>
             </div>
           </div>
         </div>

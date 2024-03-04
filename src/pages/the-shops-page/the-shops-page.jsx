@@ -1,10 +1,13 @@
 import React from "react";
-import "./the-shops-page.css";import avatar from "../../assets/images/profile.png";
+import "./the-shops-page.css";
+import avatar from "../../assets/images/profile.png";
 import Carousel from "../../components/carousel/carousel";
 import { ReactComponent as ShopAction1 } from "../../assets/icons/shop-action-1.svg";
 import { ReactComponent as ShopAction2 } from "../../assets/icons/shop-action-2.svg";
 import { ReactComponent as ShopAction3 } from "../../assets/icons/shop-action-3.svg";
 import { ReactComponent as BlockChat } from "../../assets/icons/block-chat.svg";
+import MiniUser from "../../components/mini-user/mini-user";
+import { NavLink } from "react-router-dom";
 
 function TheShopsPage() {
   return (
@@ -15,7 +18,6 @@ function TheShopsPage() {
       <div className="shop_banner">
         <h2 className="shop_banner_text">Место для баннера</h2>
         <div className="shop_banner_actions">
-       
           <div className="shop_banner_actions_list">
             <ShopAction1 />
             <ShopAction2 />
@@ -50,7 +52,6 @@ function TheShopsPage() {
             <p>Моментальные магазины: Пользователь, Пользователь</p>
           </div>
         </div>
-
       </div>
       <div className="shops_page_themes">
         <div className="main_block">
@@ -64,10 +65,12 @@ function TheShopsPage() {
                 <div className="shop_theme_btn">
                   <p>Тема</p>
                 </div>
-                <p>
-                  Название темы, для примера оно будет длинное, или очень сильно
-                  длинное, очень...
-                </p>
+                <NavLink to="/theme">
+                  <p>
+                    Название темы, для примера оно будет длинное, или очень
+                    сильно длинное, очень...
+                  </p>
+                </NavLink>
               </div>
               <div className="themes_block_item_center">
                 <div>
@@ -84,9 +87,12 @@ function TheShopsPage() {
                   <p>Последняя размещенная тема</p>
                 </div>
                 <div className="themes_block_item_right_time">
-                  <p>
-                    28 мин. назад - <span>Nickname</span>
-                  </p>
+                  <div className="user_link user_link_r">
+                    <p>
+                      28 мин. назад - <span>Nickname</span>
+                    </p>
+                    <MiniUser />
+                  </div>
                 </div>
               </div>
             </div>
@@ -96,10 +102,12 @@ function TheShopsPage() {
                 <div className="shop_theme_btn">
                   <p>Тема</p>
                 </div>
-                <p>
-                  Название темы, для примера оно будет длинное, или очень сильно
-                  длинное, очень...
-                </p>
+                <NavLink to="/theme">
+                  <p>
+                    Название темы, для примера оно будет длинное, или очень
+                    сильно длинное, очень...
+                  </p>
+                </NavLink>
               </div>
               <div className="themes_block_item_center">
                 <div>
@@ -116,9 +124,12 @@ function TheShopsPage() {
                   <p>Последняя размещенная тема</p>
                 </div>
                 <div className="themes_block_item_right_time">
-                  <p>
-                    28 мин. назад - <span>Nickname</span>
-                  </p>
+                  <div className="user_link user_link_r">
+                    <p>
+                      28 мин. назад - <span>Nickname</span>
+                    </p>
+                    <MiniUser />
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,10 +139,12 @@ function TheShopsPage() {
                 <div className="shop_theme_btn">
                   <p>Тема</p>
                 </div>
-                <p>
-                  Название темы, для примера оно будет длинное, или очень сильно
-                  длинное, очень...
-                </p>
+                <NavLink to="/theme">
+                  <p>
+                    Название темы, для примера оно будет длинное, или очень
+                    сильно длинное, очень...
+                  </p>
+                </NavLink>
               </div>
               <div className="themes_block_item_center">
                 <div>
@@ -148,43 +161,55 @@ function TheShopsPage() {
                   <p>Последняя размещенная тема</p>
                 </div>
                 <div className="themes_block_item_right_time">
-                  <p>
-                    28 мин. назад - <span>Nickname</span>
-                  </p>
+                  <div className="user_link user_link_r">
+                    <p>
+                      28 мин. назад - <span>Nickname</span>
+                    </p>
+                    <MiniUser />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-       
         </div>
         <div className="main_block">
-            <div className="main_block_secondary_title">
-              <p>Команда магазина</p>
+          <div className="main_block_secondary_title">
+            <p>Команда магазина</p>
+          </div>
+          <div className="online_command">
+            <div className="online_command_item">
+              <img src={avatar} alt="" />
+              <div className="online_command_item_desc">
+                <div className="user_link">
+                  <p>Vik</p>
+                  <MiniUser />
+                </div>
+
+                <span>Администратор</span>
+              </div>
             </div>
-            <div className="online_command">
-              <div className="online_command_item">
-                <img src={avatar} alt="" />
-                <div className="online_command_item_desc">
+            <div className="online_command_item">
+              <img src={avatar} alt="" />
+              <div className="online_command_item_desc">
+                <div className="user_link">
                   <p>Vik</p>
-                  <span>Администратор</span>
+                  <MiniUser />
                 </div>
+                <span>Администратор</span>
               </div>
-              <div className="online_command_item">
-                <img src={avatar} alt="" />
-                <div className="online_command_item_desc">
+            </div>
+            <div className="online_command_item">
+              <img src={avatar} alt="" />
+              <div className="online_command_item_desc">
+                <div className="user_link">
                   <p>Vik</p>
-                  <span>Администратор</span>
+                  <MiniUser />
                 </div>
-              </div>
-              <div className="online_command_item">
-                <img src={avatar} alt="" />
-                <div className="online_command_item_desc">
-                  <p>Vik</p>
-                  <span>Администратор</span>
-                </div>
+                <span>Администратор</span>
               </div>
             </div>
           </div>
+        </div>
       </div>
       <div className="shops_page_about">
         <h3>О магазине</h3>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./profile-pages.css";
 import ava from "../../assets/images/profile.png";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function Alerts() {
   return (
@@ -9,7 +10,11 @@ function Alerts() {
         <h3>Оповещения</h3>
       </div>
       <div className="alerts_page_item">
-        <img src={ava} alt="" />
+        <div className="user_link">
+          <img src={ava} alt="" />
+          <MiniUser />
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet consectetur. Mauris mauris adipiscing erat
           mauris mi. Neque feugiat aliquet sed sollicitudin elementum at
@@ -30,7 +35,11 @@ function Alerts() {
         </p>
       </div>
       <div className="alerts_page_item">
-        <img src={ava} alt="" />
+      <div className="user_link">
+          <img src={ava} alt="" />
+          <MiniUser />
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet consectetur. Mauris mauris adipiscing erat
           mauris mi. Neque feugiat aliquet sed sollicitudin elementum at

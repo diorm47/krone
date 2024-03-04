@@ -1,6 +1,7 @@
 import React from "react";
 import "./profile-pages.css";
 import ava from "../../assets/images/profile.png";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function Subscriptions() {
   return (
@@ -12,140 +13,201 @@ function Subscriptions() {
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
+
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>
         <div className="subscriptions_page_card">
           <img src={ava} alt="" />
           <div>
-            <p>Member</p>
+            <div className="user_link">
+              <p>Member</p>
+              <MiniUser />
+            </div>
             <span>Статус человека</span>
           </div>
         </div>

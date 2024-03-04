@@ -5,6 +5,7 @@ import ava2 from "../../assets/images/profile-ava.png";
 import { ReactComponent as FileUpload } from "../../assets/icons/file-upload.svg";
 import { ReactComponent as Replay } from "../../assets/icons/replay.svg";
 import { ReactComponent as Like } from "../../assets/icons/like.svg";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function Profile() {
   return (
@@ -29,9 +30,12 @@ function Profile() {
       <div className="main_block user_profile_mess">
         <div className="user_profile_mess_left">
           <img src={ava2} alt="" />
-          <i>
-            <p>Member</p>
-          </i>
+          <div className="user_link">
+            <i>
+              <p>Member</p>
+            </i>
+            <MiniUser />
+          </div>
         </div>
         <div className="user_profile_mess_right">
           <div className="user_profile_mess_right_top">
@@ -57,11 +61,10 @@ function Profile() {
             <Like /> <p>Понравилось Member, Member, и 322 других</p>
           </div>
           <div className="user_profile_mess_actions">
-          <p>Изменить </p>
-          <p>Удалить</p>
+            <p>Изменить </p>
+            <p>Удалить</p>
+          </div>
         </div>
-        </div>
-      
       </div>
     </>
   );

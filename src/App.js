@@ -21,6 +21,7 @@ import MyThemesMes from "./pages/themes-list/my-themes-messages";
 import ThemesWith from "./pages/themes-list/themes-with";
 import TrackedThemes from "./pages/themes-list/tracked-themes";
 import Shops from "./pages/themes-list/shops";
+import Theme from "./pages/theme/theme";
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
           <Route path="/theme-without-answer" element={<ThemesWith />} />
           <Route path="/tracked-themes" element={<TrackedThemes />} />
           <Route path="/shops" element={<Shops />} />
+          <Route path="/theme" element={<Theme />} />
 
 
           

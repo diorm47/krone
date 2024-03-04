@@ -1,5 +1,7 @@
 import React from "react";
 import "./user-page.css";
+import MiniUser from "../../components/mini-user/mini-user";
+import { NavLink } from "react-router-dom";
 
 function Activity() {
   return (
@@ -9,12 +11,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -23,12 +30,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -37,12 +49,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -51,12 +68,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -65,12 +87,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -79,12 +106,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -93,12 +125,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -107,12 +144,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -121,12 +163,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -135,12 +182,17 @@ function Activity() {
         <div className="user_activity_item_right">
           <div className="user_activity_item_right_top">
             <p>Магазин</p>
-            <h4>
-              Название темы, которые будет отображаться на данной странице
-            </h4>
+            <NavLink to="/theme">
+              <h4>
+                Название темы, которые будет отображаться на данной странице
+              </h4>
+            </NavLink>
           </div>
           <div className="user_activity_item_right_date">
-            <p>Member 12 Дек 2023</p>
+            <div className="user_link">
+              <p>Member 12 Дек 2023</p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>

@@ -184,7 +184,7 @@
   height: 109px;
 }
 
-.user_profile_mess_left p {
+.user_profile_mess_left p:nth-child(1) {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
   font-size: 15px;
@@ -301,7 +301,7 @@
   opacity: 0.7;
 }
 
-.user_activity_item_right_date p {
+.user_activity_item_right_date p:nth-child(1) {
   color: rgb(120, 120, 120);
   font-family: Open Sans;
   font-size: 13px;

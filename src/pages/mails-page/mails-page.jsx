@@ -7,6 +7,7 @@ import { ReactComponent as Plus } from "../../assets/icons/plus.svg";
 import { ReactComponent as FileUpload } from "../../assets/icons/file-upload.svg";
 import { ReactComponent as Replay } from "../../assets/icons/replay.svg";
 import ava from "../../assets/images/profile.png";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function MailsPage() {
   const [modal, setModal] = useState(false);
@@ -112,7 +113,10 @@ function MailsPage() {
                   </div>
                 </div>
               </div>
-              <button className="create_dialog border_btn"  onClick={() => setModal(true)}>
+              <button
+                className="create_dialog border_btn"
+                onClick={() => setModal(true)}
+              >
                 <Dialog />
                 <p>Создать диалог</p>
               </button>
@@ -120,8 +124,12 @@ function MailsPage() {
             <div className="mails_page_content_right">
               <div className="mails_page_content_right_top">
                 <div className="mails_page_content_right_members">
-                  <p>Vlad, Niki, Ember</p>
-                  <Plus   onClick={() => setModal(true)}/>
+                  <div className="user_link">
+                    <p>Vlad, Niki, Ember</p>
+                    <MiniUser />
+                  </div>
+
+                  <Plus onClick={() => setModal(true)} />
                 </div>
                 <div className="mails_page_content_right_leave">
                   <p>Покинуть чат</p>
@@ -135,9 +143,13 @@ function MailsPage() {
                   <img src={ava} alt="" />
                   <div className="mails_chat_mess">
                     <div className="mails_chat_mess_top">
-                      <i>
-                        <p> Niki</p>
-                      </i>
+                      <div className="user_link">
+                        <i>
+                          <p>Member</p>
+                        </i>
+                        <MiniUser />
+                      </div>
+
                       <p>Уровень пользователя</p>
                     </div>
                     <div className="mails_chat_mess_text">
@@ -154,9 +166,12 @@ function MailsPage() {
                 <div className="user_chat_message my_mail_chat_message">
                   <div className="mails_chat_mess">
                     <div className="mails_chat_mess_top">
-                      <i>
-                        <p> Member</p>
-                      </i>
+                    <div className="user_link">
+                        <i>
+                          <p> Member</p>
+                        </i>
+                        <MiniUser />
+                      </div>
                       <p>Уровень пользователя</p>
                     </div>
                     <div className="mails_chat_mess_text">

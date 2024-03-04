@@ -4,6 +4,7 @@ import Carousel from "../../components/carousel/carousel";
 import "./notes-page.css";
 
 import { ReactComponent as UploadBtn } from "../../assets/icons/upload_btn.svg";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function NotesPage() {
   return (
@@ -84,21 +85,31 @@ function NotesPage() {
               <div className="online_command_item">
                 <img src={avatar} alt="" />
                 <div className="online_command_item_desc">
-                  <p>Vik</p>
+                  <div className="user_link user_link_r">
+                    <p>Vik</p>
+                    <MiniUser />
+                  </div>
+
                   <span>Администратор</span>
                 </div>
               </div>
               <div className="online_command_item">
                 <img src={avatar} alt="" />
                 <div className="online_command_item_desc">
-                  <p>Vik</p>
+                  <div className="user_link user_link_r">
+                    <p>Vik</p>
+                    <MiniUser />
+                  </div>
                   <span>Администратор</span>
                 </div>
               </div>
               <div className="online_command_item">
                 <img src={avatar} alt="" />
                 <div className="online_command_item_desc">
-                  <p>Vik</p>
+                  <div className="user_link user_link_r">
+                    <p>Vik</p>
+                    <MiniUser />
+                  </div>
                   <span>Администратор</span>
                 </div>
               </div>

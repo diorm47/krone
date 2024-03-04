@@ -92,7 +92,9 @@ function NameShopPage() {
                 <div className="themes_block_item shop_name_theme_item">
                   <div className="themes_block_item_left">
                     <BlockChat />
-                    <p>Название темы, для примера оно будет ...</p>
+                    <NavLink to="/theme">
+                      <p>Название темы, для примера оно будет ...</p>
+                    </NavLink>
                   </div>
                   <div className="shop_name_theme_item_sort">
                     <input type="text" />
@@ -109,7 +111,9 @@ function NameShopPage() {
                   </div>
                   <div className="themes_block_item_right">
                     <div className="themes_block_item_right_title">
-                      <p>Последняя размещенная тема</p>
+                      <NavLink to="/theme">
+                        <p>Последняя размещенная тема</p>
+                      </NavLink>
                     </div>
                     <div className="themes_block_item_right_time">
                       <p>
@@ -140,7 +144,9 @@ function NameShopPage() {
                 <div className="themes_block_item shop_name_theme_item">
                   <div className="themes_block_item_left">
                     <BlockChat />
-                    <p>Название темы, для примера оно будет ...</p>
+                    <NavLink to="/theme">
+                      <p>Название темы, для примера оно будет ...</p>
+                    </NavLink>
                   </div>
                   <div className="shop_name_theme_item_sort">
                     <input type="text" />
@@ -157,7 +163,9 @@ function NameShopPage() {
                   </div>
                   <div className="themes_block_item_right">
                     <div className="themes_block_item_right_title">
-                      <p>Последняя размещенная тема</p>
+                      <NavLink to="/theme">
+                        <p>Последняя размещенная тема</p>
+                      </NavLink>
                     </div>
                     <div className="themes_block_item_right_time">
                       <p>
@@ -186,7 +194,9 @@ function NameShopPage() {
                 <div className="themes_block_item shop_name_theme_item">
                   <div className="themes_block_item_left">
                     <BlockChat />
-                    <p>Название темы, для примера оно будет ...</p>
+                    <NavLink to="/theme">
+                      <p>Название темы, для примера оно будет ...</p>
+                    </NavLink>
                   </div>
                   <div className="shop_name_theme_item_sort">
                     <input type="text" />
@@ -203,7 +213,9 @@ function NameShopPage() {
                   </div>
                   <div className="themes_block_item_right">
                     <div className="themes_block_item_right_title">
-                      <p>Последняя размещенная тема</p>
+                      <NavLink to="/theme">
+                        <p>Последняя размещенная тема</p>
+                      </NavLink>
                     </div>
                     <div className="themes_block_item_right_time">
                       <p>

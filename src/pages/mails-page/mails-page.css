@@ -108,7 +108,7 @@
   width: 57px;
   height: 57px;
 }
-.mails_page_content_user p {
+.mails_page_content_user .mails_page_content_user_username {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
   font-size: 15px;
