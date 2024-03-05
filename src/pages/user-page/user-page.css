@@ -27,6 +27,9 @@
   z-index: 111;
 }
 
+.mb0 {
+  margin-bottom: 0 !important;
+}
 .user_page_profile_content {
   position: relative;
   display: flex;

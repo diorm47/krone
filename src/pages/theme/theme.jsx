@@ -79,11 +79,11 @@ function Theme() {
               <span>100</span>
             </div>
             <div>
-              <p>Уровень</p>
+              <p>Уровень:</p>
               <span>100</span>
             </div>
             <div>
-              <p>Депозит</p>
+              <p>Депозит:</p>
               <span>100</span>
             </div>
           </div>
@@ -244,11 +244,11 @@ function Theme() {
               <span>100</span>
             </div>
             <div>
-              <p>Уровень</p>
+              <p>Уровень:</p>
               <span>100</span>
             </div>
             <div>
-              <p>Депозит</p>
+              <p>Депозит:</p>
               <span>100</span>
             </div>
           </div>

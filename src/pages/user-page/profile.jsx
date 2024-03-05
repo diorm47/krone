@@ -6,6 +6,8 @@ import { ReactComponent as FileUpload } from "../../assets/icons/file-upload.svg
 import { ReactComponent as Replay } from "../../assets/icons/replay.svg";
 import { ReactComponent as Like } from "../../assets/icons/like.svg";
 import MiniUser from "../../components/mini-user/mini-user";
+import { ReactComponent as LikeAc } from "../../assets/icons/like-action.svg";
+import { ReactComponent as ReplyAc } from "../../assets/icons/reply-action.svg";
 
 function Profile() {
   return (
@@ -63,9 +65,21 @@ function Profile() {
               <MiniUser />
             </div>
           </div>
-          <div className="user_profile_mess_actions">
-            <p className="text_opacity_hover">Изменить </p>
-            <p className="text_opacity_hover">Удалить</p>
+          <div className="theme_actions mb0">
+            <div className="user_profile_mess_actions">
+              <p className="text_opacity_hover">Изменить </p>
+              <p className="text_opacity_hover">Удалить</p>
+            </div>
+            <div className="theme_actions_right">
+              <div className="text_opacity_hover">
+                <LikeAc />
+                <p>Нравится</p>
+              </div>
+              <div className="text_opacity_hover">
+                <ReplyAc />
+                <p>Ответить</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

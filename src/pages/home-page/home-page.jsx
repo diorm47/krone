@@ -2,12 +2,13 @@ import React from "react";
 import "./home-page.css";
 import Carousel from "../../components/carousel/carousel";
 import avatar from "../../assets/images/profile.png";
+import rub from "../../assets/icons/rub.png";
 
 import { ReactComponent as Send } from "../../assets/icons/send.svg";
 import { ReactComponent as Bitcoin } from "../../assets/icons/bitcoin.svg";
 import { ReactComponent as Euro } from "../../assets/icons/euro.svg";
 import { ReactComponent as USD } from "../../assets/icons/usd.svg";
-import { ReactComponent as Rub } from "../../assets/icons/rub.svg";
+
 import { ReactComponent as BlockChat } from "../../assets/icons/block-chat.svg";
 import Switch from "../../components/switch/switch";
 import Footer from "../../components/footer/footer";
@@ -26,7 +27,7 @@ function HomePage() {
             <div className="forum_chat_title">
               <p>FORUM CHAT</p> <div className="forum_chat_line"></div>{" "}
               <i>
-                <span>Правила чата</span>
+                <span>Онлайн 0 пользователей</span>
               </i>
             </div>
 
@@ -422,7 +423,7 @@ function HomePage() {
               </div>
               <div className="currency_conv_item">
                 <div className="currency_conv_item_name">
-                  <Rub />
+                 <img src={rub} alt="" />
                   <span>RUB</span>
                 </div>
 

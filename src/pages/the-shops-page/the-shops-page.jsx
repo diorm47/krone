@@ -49,7 +49,10 @@ function TheShopsPage() {
             </p>
           </div>
           <div className="team_shop_text">
-            <p>Моментальные магазины: Пользователь, Пользователь</p>
+            <p>
+              Моментальные магазины: Название сайта / Название сайта / Название
+              сайта
+            </p>
           </div>
         </div>
       </div>
@@ -178,33 +181,35 @@ function TheShopsPage() {
           </div>
           <div className="online_command">
             <div className="online_command_item">
-              <img src={avatar} alt="" />
+              <div className="user_link">
+                <img src={avatar} alt="" />
+                <MiniUser />
+              </div>
               <div className="online_command_item_desc">
-                <div className="user_link">
-                  <p>Vik</p>
-                  <MiniUser />
-                </div>
+                <p>Vik</p>
 
                 <span>Администратор</span>
               </div>
-            </div>
+            </div>{" "}
             <div className="online_command_item">
-              <img src={avatar} alt="" />
+              <div className="user_link">
+                <img src={avatar} alt="" />
+                <MiniUser />
+              </div>
               <div className="online_command_item_desc">
-                <div className="user_link">
-                  <p>Vik</p>
-                  <MiniUser />
-                </div>
+                <p>Vik</p>
+
                 <span>Администратор</span>
               </div>
-            </div>
+            </div>{" "}
             <div className="online_command_item">
-              <img src={avatar} alt="" />
+              <div className="user_link">
+                <img src={avatar} alt="" />
+                <MiniUser />
+              </div>
               <div className="online_command_item_desc">
-                <div className="user_link">
-                  <p>Vik</p>
-                  <MiniUser />
-                </div>
+                <p>Vik</p>
+
                 <span>Администратор</span>
               </div>
             </div>
