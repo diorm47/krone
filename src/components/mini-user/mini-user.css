@@ -31,10 +31,10 @@
   margin-bottom: 13px;
 }
 .user_modal_left p {
-  text-align: center;
-  color: rgb(66, 66, 66);
+  text-align: center !important;
+  color: rgb(66, 66, 66) !important;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 15px !important;
 
   line-height: 20px;
   letter-spacing: 0%;

@@ -65,7 +65,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -105,7 +107,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -145,7 +149,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -185,7 +191,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -225,7 +233,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -265,7 +275,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -305,7 +317,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -345,7 +359,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">
@@ -385,7 +401,9 @@ function ThemesList() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-                <p>13 Дек 2023</p>
+           <NavLink to="/theme">
+                  <p>13 Дек 2023</p>
+                </NavLink>
               </div>
               <div className="themes_block_item_right_time">
                 <div className="user_link user_link_r">

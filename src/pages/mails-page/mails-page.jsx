@@ -125,7 +125,7 @@ function MailsPage() {
               <div className="mails_page_content_right_top">
                 <div className="mails_page_content_right_members">
                   <div className="user_link">
-                    <p>Vlad, Niki, Ember</p>
+                    <p className="mails_page_content_right_members_links"><span>Vlad</span>, <span>Niki</span>, <span>Ember</span></p>
                     <MiniUser />
                   </div>
 
@@ -140,7 +140,7 @@ function MailsPage() {
                   <p>19 фев 2023</p>
                 </div>
                 <div className="user_chat_message">
-                  <img src={ava} alt="" />
+                  <img src={ava} alt="" className="user_chat_message_img" />
                   <div className="mails_chat_mess">
                     <div className="mails_chat_mess_top">
                       <div className="user_link">
@@ -184,7 +184,7 @@ function MailsPage() {
                       </div>
                     </div>
                   </div>
-                  <img src={ava} alt="" />
+                  <img src={ava} alt="" className="user_chat_message_img"  />
                 </div>
               </div>
               <div className="mails_page_content_chat_input">

@@ -28,7 +28,7 @@ function Auth() {
             <input type="text" placeholder="Введите капчу" />
           </div>
           <div className="login_btn">
-             <button>Регистрация</button>
+             <button className="blue_btn">Регистрация</button>
           </div>
           <div className="switch_auth">
             <p>Уже зарегистрированы? <NavLink to='/login'>Вход</NavLink></p>

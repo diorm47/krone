@@ -29,7 +29,7 @@ function Login() {
             <input type="text" placeholder="Введите капчу" />
           </div>
           <div className="login_btn">
-            <button>Войти</button>
+            <button className="blue_btn">Войти</button>
           </div>
           <div className="switch_auth">
             <p>

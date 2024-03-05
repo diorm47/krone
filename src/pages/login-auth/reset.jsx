@@ -3,7 +3,7 @@ import { ReactComponent as Logo } from "../../assets/logo.svg";
 import "./login-auth.css";
 
 function Reset() {
-  const [modal, setModal] = useState(2);
+  const [modal, setModal] = useState(1);
 
   const [otp, setOtp] = useState(new Array(6).fill(""));
   const inputsRef = useRef([]);
@@ -43,7 +43,7 @@ function Reset() {
             </div>
 
             <div className="login_btn">
-              <button onClick={() => setModal(2)}>Продолжить</button>
+              <button onClick={() => setModal(2)} className="blue_btn">Продолжить</button>
             </div>
           </form>
         </div>
@@ -74,7 +74,7 @@ function Reset() {
             </div>
 
             <div className="login_btn">
-              <button onClick={() => setModal(3)}>Продолжить</button>
+              <button onClick={() => setModal(3)} className="blue_btn">Продолжить</button>
             </div>
           </form>
         </div>
@@ -99,7 +99,7 @@ function Reset() {
             </div>
 
             <div className="login_btn">
-              <button onClick={() => setModal(2)}>Продолжить</button>
+              <button onClick={() => setModal(2)} className="blue_btn">Продолжить</button>
             </div>
           </form>
         </div>
