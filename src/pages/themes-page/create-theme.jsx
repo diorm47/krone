@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "../../components/carousel/carousel";
 import "./themes-page.css";
 import { ReactComponent as ArrowRight } from "../../assets/icons/arrow-right.svg";
+import { NavLink } from "react-router-dom";
 
 function CreateTheme() {
   return (
@@ -11,7 +12,9 @@ function CreateTheme() {
       </div>
       <div className="create_theme_page_content">
         <div className="themes_list_top_titles">
-          <p>Форум</p>
+          <NavLink to="/">
+            <p>Форум</p>
+          </NavLink>
           <ArrowRight />
           <p>Название раздела</p>
         </div>
@@ -40,19 +43,17 @@ function CreateTheme() {
             <div className="create_theme_prefix_item">
               <h4>Выбор префикса</h4>
               <div>
-               <select name="" id="">
-                <option value="">Префикс</option>
-                <option value="">Префикс</option>
-                <option value="">Префикс</option>
-               </select>
+                <select name="" id="">
+                  <option value="">Префикс</option>
+                  <option value="">Префикс</option>
+                  <option value="">Префикс</option>
+                </select>
               </div>
             </div>
           </div>
           <div className="create_theme_btn create_theme_btn_create">
-        
             <button>Создать тему</button>
-         
-        </div>
+          </div>
         </div>
       </div>
     </div>

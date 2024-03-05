@@ -2,6 +2,7 @@ import React from "react";
 import "./user-page.css";
 import ava from "../../assets/images/profile.png";
 import MiniUser from "../../components/mini-user/mini-user";
+import { NavLink } from "react-router-dom";
 
 function Informations() {
   return (
@@ -43,7 +44,8 @@ function Informations() {
         </div>
         <div className="user_information_item">
           <span>Чат:</span>
-          <p className="blue text_opacity_hover">Начать переписку</p>
+          <NavLink to='/mails'>
+          <p className="blue text_opacity_hover">Начать переписку</p></NavLink>
         </div>
         <div className="user_informations_title">
           <h4>Подпись</h4>

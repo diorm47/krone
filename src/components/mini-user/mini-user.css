@@ -26,8 +26,8 @@
   padding: 18px;
 }
 .user_modal_left img {
-  width: 109px;
-  height: 109px;
+  width: 109px !important;
+  height: 109px !important;
   margin-bottom: 13px;
 }
 .user_modal_left p {
@@ -160,3 +160,20 @@
     width: 100%;
   }
 }
+
+
+.user_modal_btns
+.border_btn:hover {
+  transition: all 0.4s ease;
+  background: rgb(11, 83, 226);
+  color: #fff;
+}
+.user_modal_btns
+.border_btn:hover p {
+  color: #fff;
+}
+.user_modal_btns .blue_btn:hover {
+  transition: all 0.4s ease;
+  background: rgb(11, 83, 226);
+}
+

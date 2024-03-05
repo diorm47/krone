@@ -13,6 +13,7 @@ import { ReactComponent as Like } from "../../assets/icons/like.svg";
 import { ReactComponent as LikeAc } from "../../assets/icons/like-action.svg";
 import { ReactComponent as ReplyAc } from "../../assets/icons/reply-action.svg";
 import MiniUser from "../../components/mini-user/mini-user";
+import { NavLink } from "react-router-dom";
 function Theme() {
   return (
     <div className="themes_list_page container theme_page">
@@ -21,7 +22,9 @@ function Theme() {
       </div>
       <div className="themes_list_top">
         <div className="themes_list_top_titles">
-          <p>Форум</p>
+          <NavLink to="/">
+            <p>Форум</p>
+          </NavLink>
           <ArrowRight />
           <p>Название раздела</p>
           <ArrowRight />
@@ -56,7 +59,11 @@ function Theme() {
             <ShopAction3 />
           </div>
           <div className="user_link">
-            <h2 className="theme_user_profile_username">Username</h2>
+            <NavLink to="/user">
+              <h2 className="theme_user_profile_username text_opacity_hover">
+                Username
+              </h2>
+            </NavLink>
             <MiniUser />
           </div>
 
@@ -177,15 +184,15 @@ function Theme() {
           </div>
           <div className="theme_actions">
             <div className="user_profile_mess_actions">
-              <p>Изменить </p>
-              <p>Удалить</p>
+              <p className="text_opacity_hover">Изменить </p>
+              <p className="text_opacity_hover">Удалить</p>
             </div>
             <div className="theme_actions_right">
-              <div>
+              <div className="text_opacity_hover">
                 <LikeAc />
                 <p>Нравится</p>
               </div>
-              <div>
+              <div className="text_opacity_hover">
                 <ReplyAc />
                 <p>Ответить</p>
               </div>
@@ -193,7 +200,14 @@ function Theme() {
           </div>
 
           <div className="user_profile_mess_likes">
-            <Like /> <p>Понравилось Member, Member, и 322 других</p>
+            <Like />{" "}
+            <div className="user_link">
+              <p>
+                Понравилось <span>Member</span>, <span>Member</span>, и 322
+                других
+              </p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
@@ -210,7 +224,11 @@ function Theme() {
             <ShopAction3 />
           </div>
           <div className="user_link">
-            <h2 className="theme_user_profile_username">Username</h2>
+            <NavLink to="/user">
+              <h2 className="theme_user_profile_username text_opacity_hover">
+                Username
+              </h2>
+            </NavLink>
             <MiniUser />
           </div>
 
@@ -272,15 +290,15 @@ function Theme() {
           </div>
           <div className="theme_actions">
             <div className="user_profile_mess_actions">
-              <p>Изменить </p>
-              <p>Удалить</p>
+              <p className="text_opacity_hover">Изменить </p>
+              <p className="text_opacity_hover">Удалить</p>
             </div>
             <div className="theme_actions_right">
-              <div>
+              <div className="text_opacity_hover">
                 <LikeAc />
                 <p>Нравится</p>
               </div>
-              <div>
+              <div className="text_opacity_hover">
                 <ReplyAc />
                 <p>Ответить</p>
               </div>
@@ -288,16 +306,23 @@ function Theme() {
           </div>
 
           <div className="user_profile_mess_likes">
-            <Like /> <p>Понравилось Member, Member, и 322 других</p>
+            <Like />{" "}
+            <div className="user_link">
+              <p>
+                Понравилось <span>Member</span>, <span>Member</span>, и 322
+                других
+              </p>
+              <MiniUser />
+            </div>
           </div>
         </div>
       </div>
 
       <div className="main_block user_mes_reply">
-      <div className="user_link">
-            <img src={ava} alt="" />
-            <MiniUser />
-          </div>
+        <div className="user_link">
+          <img src={ava} alt="" />
+          <MiniUser />
+        </div>
         <div className="user_mes_reply_right">
           <textarea placeholder="Напишите свой ответ..."></textarea>
           <div className="mails_page_content_chat_input_uploads">

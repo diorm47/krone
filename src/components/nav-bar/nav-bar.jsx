@@ -122,14 +122,15 @@ function NavBar() {
             </NavLink>
             <div className="nav_menu">
               <div className="home_nav_links">
-                <NavLink to="/">
+                <NavLink to="/" className='nav_desc_link'>
                   <div
-                    className="home_nav_link_link"
+                    className="home_nav_link_link "
                     onMouseEnter={() => setMenuDrop(true)}
                   >
                     <p>Форумы</p>
                     <ArrowDown />
-                  </div>
+                 
+                  </div>   <div className="active_line"></div>
                 </NavLink>
                 {menuDrop ? (
                   <div

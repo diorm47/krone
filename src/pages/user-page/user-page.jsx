@@ -12,6 +12,7 @@ import { Route, Routes } from "react-router-dom";
 import Profile from "./profile";
 import Activity from "./activity";
 import Informations from "./informations";
+import MiniUser from "../../components/mini-user/mini-user";
 
 function UserPage() {
   return (
@@ -32,7 +33,6 @@ function UserPage() {
             <div className="user_page_profile_content_desc">
               <div className="user_page_profile_content_username">
                 <i>
-                  {" "}
                   <p>Member</p>
                 </i>
                 <Chat />
@@ -52,8 +52,12 @@ function UserPage() {
                 </p>
                 <p>
                   <span>Активность:</span> 8 мин. назад просматривает <br />{" "}
+                 
+                  <div className="user_link">
                   профиль пользователя
-                  <span className="blue"> Member</span>
+                    <span className="blue"> Member</span>
+                    <MiniUser />
+                  </div>
                 </p>
               </div>
             </div>

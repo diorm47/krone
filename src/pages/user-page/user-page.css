@@ -86,7 +86,7 @@
 .user_page_profile_content_status {
   margin-top: 25px;
 }
-.user_page_profile_content_status p {
+.user_page_profile_content_status p:nth-child(1) {
   margin-bottom: 2px;
   color: rgb(0, 0, 0);
   font-family: Open Sans;
@@ -96,6 +96,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
 .user_page_profile_content_status span {
   color: rgb(120, 120, 120);
 }
@@ -238,7 +239,7 @@
   margin-bottom: 20px;
   background: rgb(241, 241, 241);
 }
-.user_profile_mess_likes p {
+.user_profile_mess_likes p:nth-child(1) {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
   font-size: 15px;
@@ -247,7 +248,12 @@
   letter-spacing: 0%;
   text-align: left;
 }
-
+.user_profile_mess_likes span {
+  cursor: pointer;
+}
+.user_profile_mess_likes span:hover {
+ opacity: 0.7;
+}
 .user_profile_mess_actions {
   display: flex;
   align-items: center;

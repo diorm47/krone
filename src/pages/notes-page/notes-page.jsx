@@ -83,33 +83,35 @@ function NotesPage() {
             </div>
             <div className="online_command">
               <div className="online_command_item">
-                <img src={avatar} alt="" />
+                <div className="user_link user_link_r">
+                  <img src={avatar} alt="" />
+                  <MiniUser />
+                </div>
                 <div className="online_command_item_desc">
-                  <div className="user_link user_link_r">
-                    <p>Vik</p>
-                    <MiniUser />
-                  </div>
+                  <p>Vik</p>
 
                   <span>Администратор</span>
                 </div>
-              </div>
+              </div>{" "}
               <div className="online_command_item">
-                <img src={avatar} alt="" />
+                <div className="user_link user_link_r">
+                  <img src={avatar} alt="" />
+                  <MiniUser />
+                </div>
                 <div className="online_command_item_desc">
-                  <div className="user_link user_link_r">
-                    <p>Vik</p>
-                    <MiniUser />
-                  </div>
+                  <p>Vik</p>
+
                   <span>Администратор</span>
                 </div>
-              </div>
+              </div>{" "}
               <div className="online_command_item">
-                <img src={avatar} alt="" />
+                <div className="user_link user_link_r">
+                  <img src={avatar} alt="" />
+                  <MiniUser />
+                </div>
                 <div className="online_command_item_desc">
-                  <div className="user_link user_link_r">
-                    <p>Vik</p>
-                    <MiniUser />
-                  </div>
+                  <p>Vik</p>
+
                   <span>Администратор</span>
                 </div>
               </div>

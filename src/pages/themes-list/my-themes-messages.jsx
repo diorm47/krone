@@ -17,7 +17,9 @@ function MyThemesMes() {
       </div>
       <div className="themes_list_top">
         <div className="themes_list_top_titles">
-          <p>Форум</p>
+        <NavLink to="/">
+            <p>Форум</p>
+          </NavLink>
           <ArrowRight />
           <p>Темы с моими сообщениями</p>
         </div>

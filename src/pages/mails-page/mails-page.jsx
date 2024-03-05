@@ -129,10 +129,10 @@ function MailsPage() {
                     <MiniUser />
                   </div>
 
-                  <Plus onClick={() => setModal(true)} />
+                  <Plus onClick={() => setModal(true)} className="text_opacity_hover"/>
                 </div>
                 <div className="mails_page_content_right_leave">
-                  <p>Покинуть чат</p>
+                  <p className="text_opacity_hover">Покинуть чат</p>
                 </div>
               </div>
               <div className="mails_page_content_chat">

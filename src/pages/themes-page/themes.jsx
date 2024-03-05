@@ -16,7 +16,9 @@ function Themes() {
       </div>
       <div className="themes_list_top">
         <div className="themes_list_top_titles">
-          <p>Форум</p>
+          <NavLink to="/">
+            <p>Форум</p>
+          </NavLink>
           <ArrowRight />
           <p>Название раздела</p>
         </div>
@@ -40,11 +42,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -63,7 +67,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -85,11 +89,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -108,7 +114,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -130,11 +136,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -153,7 +161,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -175,11 +183,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -198,7 +208,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -220,11 +230,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -243,7 +255,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -265,11 +277,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -288,7 +302,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -310,11 +324,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -333,7 +349,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -355,11 +371,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -378,7 +396,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -400,11 +418,13 @@ function Themes() {
                 <div className="shop_theme_btn">
                   <p>Магазин</p>
                 </div>
-                <p className="themes_list_block_left_det_top_title">
-                  Название темы, которые будет отображаться на данной странице
-                </p>
+                <NavLink to="/theme">
+                  <p className="themes_list_block_left_det_top_title">
+                    Название темы, которые будет отображаться на данной странице
+                  </p>
+                </NavLink>
               </div>
-                 <div className="user_link ">
+              <div className="user_link ">
                 <span>Member 12 Дек 2023</span>
                 <MiniUser />
               </div>
@@ -423,7 +443,7 @@ function Themes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>

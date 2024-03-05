@@ -58,11 +58,14 @@ function Profile() {
             </p>
           </div>
           <div className="user_profile_mess_likes">
-            <Like /> <p>Понравилось Member, Member, и 322 других</p>
+            <Like />      <div className="user_link">
+              <p>Понравилось <span>Member</span>, <span>Member</span>, и 322 других</p>
+              <MiniUser />
+            </div>
           </div>
           <div className="user_profile_mess_actions">
-            <p>Изменить </p>
-            <p>Удалить</p>
+            <p className="text_opacity_hover">Изменить </p>
+            <p className="text_opacity_hover">Удалить</p>
           </div>
         </div>
       </div>

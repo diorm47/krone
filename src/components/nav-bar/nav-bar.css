@@ -96,6 +96,9 @@ nav {
 .nav_desc_link:hover p {
   color: rgb(47, 116, 250);
 }
+.nav_desc_link:hover svg * {
+  fill: rgb(47, 116, 250);
+}
 .nav_desc_link:hover .active_line {
   display: block;
 }

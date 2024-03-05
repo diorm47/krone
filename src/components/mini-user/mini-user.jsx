@@ -20,8 +20,8 @@ function MiniUser() {
           <h2>Username</h2>{" "}
         </NavLink>
         <p>Регистрация: 2 авг 2023</p>
-        <p>Активностть: 9 сен 2023</p>
-        <div className="user_modal_ignore">
+        <p>Активность: 9 сен 2023</p>
+        <div className="user_modal_ignore text_opacity_hover">
           <svg
             width="67"
             height="35"
@@ -49,9 +49,9 @@ function MiniUser() {
           </svg>
         </div>
         <div className="user_modal_btns">
-          <button>Подписаться</button>
+          <button className="blue_btn">Подписаться</button>
           <NavLink to="/mails">
-            <button>Начать переписку</button>
+            <button className="border_btn">Начать переписку</button>
           </NavLink>
         </div>
       </div>

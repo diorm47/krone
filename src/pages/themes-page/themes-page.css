@@ -19,6 +19,10 @@
   letter-spacing: 0%;
   text-align: left;
 }
+.themes_list_top_titles a {
+  display: flex;
+  align-items: center;
+}
 .themes_list_top_title h3 {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
