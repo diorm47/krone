@@ -201,8 +201,14 @@
 .hompe_page_right_carousel .carousel_wrapper {
   flex-direction: column;
   width: 100%;
-  padding: 32px 27px;
-  gap: 10px;
+  padding: 10px;
+  gap: 5px;
+}
+.hompe_page_right_carousel .carousel_wrapper img:nth-child(1) {
+  border-radius: 10px 10px 0px 0px;
+}
+.hompe_page_right_carousel .carousel_wrapper img:last-child {
+  border-radius: 0px 0px 10px 10px;
 }
 .hompe_page_right_carousel .carousel_wrapper img {
   width: 100%;
@@ -421,8 +427,13 @@
     background-size: auto;
     padding: 32px 0;
   }
+  .hompe_page_right_carousel .carousel_wrapper {
+    flex-direction: column;
+    display: flex;
+    gap: 3px;
+    padding: 6px;
+  }
 }
 .user_link {
   position: relative;
 }
-

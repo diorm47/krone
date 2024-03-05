@@ -20,7 +20,6 @@
   border-radius: 0px 10px 10px 0px;
 }
 
-
 @media only screen and (max-width: 1550px) {
   .carousel_wrapper img {
     width: 100%;
@@ -36,17 +35,23 @@
   }
 }
 
-
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 800px) {
   .carousel_wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 500px) {
   .carousel_wrapper {
     flex-direction: column;
     display: flex;
-    padding: 17px;
+    gap: 3px;
+    padding: 6px;
+  }
+  .carousel_wrapper img:nth-child(1) {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .carousel_wrapper img:last-child {
+    border-radius: 0px 0px 10px 10px;
   }
 }

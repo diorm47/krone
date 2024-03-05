@@ -339,7 +339,7 @@ nav {
   position: absolute;
   z-index: 112;
   top: 50px;
-  left: 0;
+  left: -7px;
   width: 517px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
