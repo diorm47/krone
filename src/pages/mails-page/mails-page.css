@@ -92,6 +92,17 @@
   height: 680px;
   overflow-x: auto;
 }
+.mails_page_content_users::-webkit-scrollbar {
+  border-radius: 10px;
+  width: 13px;
+  background: rgb(224, 224, 224);
+}
+
+.mails_page_content_users::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 13px;
+  background: rgb(47, 116, 250);
+}
 .mails_page_content_user {
   padding: 11px 12px 11px 20px;
   display: flex;
@@ -342,4 +353,193 @@
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+@media only screen and (max-width: 980px) {
+  .mails_page_content {
+    flex-direction: column;
+  }
+  .mails_page_content_left {
+    width: 100%;
+  }
+  .mails_page_content_search input {
+    width: 100%;
+  }
+  .mails_page_content_search {
+    padding-right: 8px;
+  }
+  .mails_page_content_users {
+    padding-right: 10px;
+  }
+  .create_dialog {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mails_page_content_chat_input_uploads span {
+    display: none;
+  }
+  .mails_page_content_chat_input_uploads {
+    flex-direction: row-reverse !important;
+  }
+  .mails_page_content_chat_input_uploads_left button p {
+    display: none;
+  }
+  .mails_page_content_chat_input_uploads_left button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+  .mails_page_content_chat_input_upload_btn:nth-child(2) {
+    height: 40px;
+    width: 100%;
+  }
+  .mails_page_content_chat_input input {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    /* button */
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+  }
+  .my_mail_chat_message img {
+    display: none;
+  }
+  .mails_page_content_chat {
+    height: 300px;
+    padding: 15px;
+  }
+  .mails_page_content_chat_date {
+    display: none;
+  }
+  .user_chat_message img {
+    width: 36px;
+    height: 36px;
+  }
+  .user_chat_message {
+    margin-bottom: 6px;
+    gap: 12px;
+  }
+  .my_mail_chat_message .mails_chat_mess_top {
+    display: none;
+  }
+  .mails_page_content_right_top {
+    padding: 20px 15px;
+  }
+  .mails_page_content_right_members {
+    gap: 12px;
+  }
+  .mails_chat_mess_text p {
+    font-size: 12px;
+  }
+  .my_mail_chat_message .mails_chat_mess {
+    padding: 10px;
+  }
+  .mails_chat_mess_top p:last-child {
+    font-size: 10px;
+  }
+  .mails_page_content {
+    background: #eef2ff;
+  }
+  .mails_page_content_search {
+    margin: 0;
+    padding: 0;
+  }
+  .mails_page_content_search svg {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+  }
+  .mails_page_content_search input {
+    background: transparent;
+  }
+  .mails_page_content_users {
+    border-radius: 10.01px;
+    height: 193px;
+    box-shadow: 0px 4px 20px 0px rgba(50, 94, 251, 0.25);
+    background: rgb(255, 255, 255);
+  }
+  .mails_page_content_users::-webkit-scrollbar {
+    width: 5px;
+  }
+  .mails_page_content_users::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 5px;
+  }
+  .mails_page_content_right {
+    border-radius: 10.01px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    box-shadow: 0px 4px 20px 0px rgba(50, 94, 251, 0.25);
+    background: rgb(255, 255, 255);
+  }
+  .mails_page_content_chat_input {
+    padding: 0 20px;
+  }
+  .mails_page_content_user {
+    padding-left: 24px;
+  }
+  .mails_page_content_user p {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .mails_page_content_user span {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .mails_page_content_user div {
+    display: flex;
+    flex-direction: column;
+  }
+  .invite_chat_modal {
+    width: 90%;
+    left: 20px;
+    margin: 0;
+    margin-top: 200px;
+    top: 0;
+    padding: 45px 25px;
+    height: auto;
+  }
+  .invite_chat_modal_inputs {
+    flex-direction: column;
+  }
+  .invite_chat_modal_inputs input {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    height: 48px;
+    font-size: 14px;
+  }
+  .invite_chat_modal_inputs .save_btn {
+    height: 57.35px;
+    font-size: 17.2px;
+  }
+  .invite_chat_modal p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .invite_chat_modal h3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
 }

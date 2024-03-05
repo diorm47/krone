@@ -23,7 +23,7 @@ function MailsPage() {
           <h3>Пригласить в переписку</h3>
           <p>ID пользователя</p>
           <div className="invite_chat_modal_inputs">
-            <input type="text" placeholder="здесь будет ID пользователя" />
+            <input type="text" placeholder="Введите ID пользователя" />
 
             <button className="save_btn">Пригласить</button>
           </div>
@@ -150,7 +150,7 @@ function MailsPage() {
                         <MiniUser />
                       </div>
 
-                      <p>Уровень пользователя</p>
+                      <p>Нестандартное звание пользователя</p>
                     </div>
                     <div className="mails_chat_mess_text">
                       <p>
@@ -172,7 +172,7 @@ function MailsPage() {
                         </i>
                         <MiniUser />
                       </div>
-                      <p>Уровень пользователя</p>
+                      <p>Нестандартное звание пользователя</p>
                     </div>
                     <div className="mails_chat_mess_text">
                       <p>
