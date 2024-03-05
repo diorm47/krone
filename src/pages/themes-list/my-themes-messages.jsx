@@ -47,7 +47,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -63,7 +66,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -91,7 +94,14 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+
+              <div className="user_link ">
+                   <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -107,7 +117,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -135,7 +145,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -151,7 +164,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -179,7 +192,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -195,7 +211,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -223,7 +239,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -239,7 +258,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -267,7 +286,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -283,7 +305,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -311,7 +333,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -327,7 +352,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -355,7 +380,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -371,7 +399,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>
@@ -399,7 +427,10 @@ function MyThemesMes() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -415,7 +446,7 @@ function MyThemesMes() {
           <div className="themes_block_item_right">
             <div>
               <div className="themes_block_item_right_title">
-           <NavLink to="/theme">
+                <NavLink to="/theme">
                   <p>13 Дек 2023</p>
                 </NavLink>
               </div>

@@ -47,7 +47,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -91,7 +94,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -135,7 +141,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -179,7 +188,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -223,7 +235,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -267,7 +282,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -311,7 +329,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -355,7 +376,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">
@@ -399,7 +423,10 @@ function ThemesWith() {
                   </p>
                 </NavLink>
               </div>
-              <span>Member 12 Дек 2023</span>
+                 <div className="user_link ">
+                <span>Member 12 Дек 2023</span>
+                <MiniUser />
+              </div>
             </div>
           </div>
           <div className="themes_block_item_center">

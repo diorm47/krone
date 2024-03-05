@@ -74,6 +74,7 @@
   line-height: 18px;
   letter-spacing: 0%;
   text-align: left;
+  max-width: 130px;
 }
 .themes_list_block_left_det_top .shop_theme_btn {
   margin-left: 0;
@@ -301,4 +302,8 @@
     width: 100%;
   }
   
+}
+
+.themes_list_block_left_det .user_link {
+  max-width: 130px;
 }
