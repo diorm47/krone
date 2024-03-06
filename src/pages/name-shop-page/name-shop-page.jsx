@@ -112,7 +112,7 @@ function NameShopPage() {
                   <div className="themes_block_item_right">
                     <div className="themes_block_item_right_title">
                       <NavLink to="/theme">
-                        <p>Последняя размещенная тема</p>
+                      <p>Последний размещенный ответ</p>
                       </NavLink>
                     </div>
                     <div className="themes_block_item_right_time">
@@ -164,7 +164,7 @@ function NameShopPage() {
                   <div className="themes_block_item_right">
                     <div className="themes_block_item_right_title">
                       <NavLink to="/theme">
-                        <p>Последняя размещенная тема</p>
+                      <p>Последний размещенный ответ</p>
                       </NavLink>
                     </div>
                     <div className="themes_block_item_right_time">
@@ -214,7 +214,7 @@ function NameShopPage() {
                   <div className="themes_block_item_right">
                     <div className="themes_block_item_right_title">
                       <NavLink to="/theme">
-                        <p>Последняя размещенная тема</p>
+                      <p>Последний размещенный ответ</p>
                       </NavLink>
                     </div>
                     <div className="themes_block_item_right_time">

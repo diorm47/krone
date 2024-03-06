@@ -19,6 +19,9 @@
   letter-spacing: 0%;
   text-align: left;
 }
+.create_theme .save_btn{
+   margin-top: 50px;
+} 
 .themes_list_top_titles a {
   display: flex;
   align-items: center;
@@ -47,7 +50,7 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  display: none;
+ 
 }
 .create_theme_btn button {
   border-radius: 3px;

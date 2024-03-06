@@ -77,7 +77,9 @@ button {
 .themes_block_item_right_title p,
 .themes_block_item_right_time span,
 .themes_list_block_left_det span,
-.themes_block_item_right_time p, .themes_list_top_titles p {
+.themes_block_item_right_time p,
+.themes_list_top_titles p,
+.forum_chat_user_message b {
   transition: all 0.4s ease;
   cursor: pointer;
 }
@@ -88,7 +90,9 @@ button {
 .themes_block_item_right_title p:hover,
 .themes_block_item_right_time span:hover,
 .themes_list_block_left_det span:hover,
-.themes_block_item_right_time p:hover, .themes_list_top_titles p:hover {
+.themes_block_item_right_time p:hover,
+.themes_list_top_titles p:hover,
+.forum_chat_user_message b:hover {
   transition: all 0.4s ease;
   opacity: 0.7;
 }
@@ -111,8 +115,5 @@ input[type="checkbox"] {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-
   }
 }
-
-

@@ -189,9 +189,15 @@ function HomePage() {
                   </div>
                 </div>
               </div>
+              <div className="create_theme_btn">
+          <NavLink to="/create-theme">
+            <button>Создать тему</button>
+          </NavLink>
+        </div>
             </div>
           </div>
           <div className="main_block empty_main_block">
+            
             <div className="main_block_title">
               <p>Эксперементальное название раздела</p>
               <div className="show_hide_block">
@@ -308,6 +314,11 @@ function HomePage() {
                   </div>
                 </div>
               </div>
+              <div className="create_theme_btn">
+          <NavLink to="/create-theme">
+            <button>Создать тему</button>
+          </NavLink>
+        </div>
             </div>
           </div>
           <div className="main_block empty_main_block">

@@ -64,7 +64,7 @@ function UserPage() {
           </div>
           <div className="user_page_profile_content_right">
             <div>
-              <p>Депозит</p>
+              <p>Депозит:</p>
               <span>172</span>
             </div>
             <div>
@@ -76,7 +76,7 @@ function UserPage() {
               <span>172</span>
             </div>
             <div>
-              <p>Уровень</p>
+              <p>Уровень:</p>
               <span>172</span>
             </div>
           </div>

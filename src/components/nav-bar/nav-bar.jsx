@@ -14,14 +14,17 @@ import { ReactComponent as AuthMOb } from "../../assets/icons/auth-mob.svg";
 import { ReactComponent as NavMenu } from "../../assets/icons/nav-menu.svg";
 import { ReactComponent as NavMenuExit } from "../../assets/icons/exit-menu.svg";
 import { ReactComponent as NavMenuDropIcon } from "../../assets/icons/nav-menu-drop.svg";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import profile from "../../assets/images/profile.png";
 
 function NavBar() {
+  const location = useLocation();
+
   const [mailsDrop, setMailsDrop] = useState(false);
   const [notDrop, setNotDrop] = useState(false);
   const [profDrop, setProfDrop] = useState(false);
   const [menuDrop, setMenuDrop] = useState(false);
+  const [activeMain, setActiveMain] = useState(false);
   const navigate = useNavigate();
 
   const redirect = () => {
@@ -31,6 +34,20 @@ function NavBar() {
   const [navMenu, setNavMenu] = useState(false);
   const [navMenuDrop, setNavMenuDrop] = useState(false);
 
+  useEffect(() => {
+    if (
+      location.pathname == "/new-messages" ||
+      location.pathname == "/my-themes" ||
+      location.pathname == "/my-theme-messages" ||
+      location.pathname == "/theme-without-answer" ||
+      location.pathname == "/tracked-themes" ||
+      location.pathname == "/theme"
+    ) {
+      setActiveMain(true);
+    } else {
+      setActiveMain(false);
+    }
+  }, [location.pathname]);
   return (
     <>
       {navMenu ? (
@@ -122,15 +139,20 @@ function NavBar() {
             </NavLink>
             <div className="nav_menu">
               <div className="home_nav_links">
-                <NavLink to="/" className='nav_desc_link'>
+                <NavLink
+                  to="/"
+                  className={
+                    activeMain ? "nav_desc_link active" : "nav_desc_link"
+                  }
+                >
                   <div
                     className="home_nav_link_link "
                     onMouseEnter={() => setMenuDrop(true)}
                   >
                     <p>Форумы</p>
                     <ArrowDown />
-                 
-                  </div>   <div className="active_line"></div>
+                  </div>{" "}
+                  <div className="active_line"></div>
                 </NavLink>
                 {menuDrop ? (
                   <div
@@ -160,7 +182,14 @@ function NavBar() {
                 )}
               </div>
 
-              <NavLink to="/shops" className="nav_desc_link">
+              <NavLink
+                to="/shops"
+                className={
+                  location.pathname == "/the-shops"
+                    ? "nav_desc_link active"
+                    : "nav_desc_link"
+                }
+              >
                 <p>Магазины</p>
                 <div className="active_line"></div>
               </NavLink>
