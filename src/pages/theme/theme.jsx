@@ -1,19 +1,20 @@
+import React, { useEffect, useState } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
 import { ReactComponent as ArrowRight } from "../../assets/icons/arrow-right.svg";
-import React from "react";
-import Carousel from "../../components/carousel/carousel";
-import ava from "../../assets/images/mini-ava.png";
-import "./theme.css";
 import { ReactComponent as FileUpload } from "../../assets/icons/file-upload.svg";
+import { ReactComponent as LikeAc } from "../../assets/icons/like-action.svg";
+import { ReactComponent as Like } from "../../assets/icons/like.svg";
 import { ReactComponent as Replay } from "../../assets/icons/replay.svg";
+import { ReactComponent as ReplyAc } from "../../assets/icons/reply-action.svg";
 import { ReactComponent as ShopAction1 } from "../../assets/icons/shop-action-1.svg";
 import { ReactComponent as ShopAction2 } from "../../assets/icons/shop-action-2.svg";
 import { ReactComponent as ShopAction3 } from "../../assets/icons/shop-action-3.svg";
 import { ReactComponent as IconTop } from "../../assets/icons/theme-top.svg";
-import { ReactComponent as Like } from "../../assets/icons/like.svg";
-import { ReactComponent as LikeAc } from "../../assets/icons/like-action.svg";
-import { ReactComponent as ReplyAc } from "../../assets/icons/reply-action.svg";
+import ava from "../../assets/images/mini-ava.png";
+import Carousel from "../../components/carousel/carousel";
 import MiniUser from "../../components/mini-user/mini-user";
-import { NavLink } from "react-router-dom";
+import "./theme.css";
+
 function Theme() {
   return (
     <div className="themes_list_page container theme_page">

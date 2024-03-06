@@ -32,7 +32,7 @@ button {
 .mails_page_content_chat_input_upload_btn,
 .mails_page_content_chat_input_upload_btn,
 .user_page_profile_content_prefix p,
-.user_activity_item_right_top p {
+.user_activity_item_right_top p, .shop_theme_btn {
   transition: all 0.4s ease;
 }
 .blue_btn:hover,
@@ -40,9 +40,10 @@ button {
 .mails_page_content_chat_input_upload_btn:hover,
 .mails_page_content_chat_input_upload_btn,
 .user_page_profile_content_prefix p:hover,
-.user_activity_item_right_top p:hover {
+.user_activity_item_right_top p:hover, .shop_theme_btn:hover {
   transition: all 0.4s ease;
   background: rgb(11, 83, 226);
+  color: #fff;
 }
 
 .border_btn,
@@ -50,6 +51,7 @@ button {
 .footer_menu p,
 .notes_page_upload svg {
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 .border_btn:hover {
   transition: all 0.4s ease;

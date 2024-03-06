@@ -510,7 +510,7 @@ nav {
 
 @media only screen and (max-width: 500px) {
   .nav_logo svg {
-    width: 100px;
+    width: 140px;
   }
   .nav_auth_btns_desc {
     display: none;

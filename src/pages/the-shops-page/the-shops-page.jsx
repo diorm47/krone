@@ -29,7 +29,7 @@ function TheShopsPage() {
         <div className="shops_page_title_left">
           <div className="shops_page_title_left_top">
             <h4>Название магазина</h4>
-            <div>
+            <div className="border_btn">
               {" "}
               <p>2 сделки</p>
             </div>
@@ -50,8 +50,9 @@ function TheShopsPage() {
           </div>
           <div className="team_shop_text">
             <p>
-              Моментальные магазины: Название сайта / Название сайта / Название
-              сайта
+              <span className="text_opacity_hover"> Название сайта </span> /{" "}
+              <span className="text_opacity_hover">Название сайта </span>/{" "}
+              <span className="text_opacity_hover">Название сайта</span>
             </p>
           </div>
         </div>
@@ -86,9 +87,11 @@ function TheShopsPage() {
                 </div>
               </div>
               <div className="themes_block_item_right">
-                <div className="themes_block_item_right_title">
-                  <p>Последняя размещенная тема</p>
-                </div>
+                <NavLink to="/theme">
+                  <div className="themes_block_item_right_title">
+                    <p>Последний размещенный ответ</p>
+                  </div>
+                </NavLink>
                 <div className="themes_block_item_right_time">
                   <div className="user_link user_link_r">
                     <p>
@@ -123,9 +126,11 @@ function TheShopsPage() {
                 </div>
               </div>
               <div className="themes_block_item_right">
-                <div className="themes_block_item_right_title">
-                  <p>Последняя размещенная тема</p>
-                </div>
+                <NavLink to="/theme">
+                  <div className="themes_block_item_right_title">
+                    <p>Последний размещенный ответ</p>
+                  </div>
+                </NavLink>
                 <div className="themes_block_item_right_time">
                   <div className="user_link user_link_r">
                     <p>
@@ -160,9 +165,11 @@ function TheShopsPage() {
                 </div>
               </div>
               <div className="themes_block_item_right">
-                <div className="themes_block_item_right_title">
-                  <p>Последняя размещенная тема</p>
-                </div>
+                <NavLink to="/theme">
+                  <div className="themes_block_item_right_title">
+                    <p>Последний размещенный ответ</p>
+                  </div>
+                </NavLink>
                 <div className="themes_block_item_right_time">
                   <div className="user_link user_link_r">
                     <p>

@@ -9,7 +9,7 @@ import MiniUser from "../../components/mini-user/mini-user";
 function NotesPage() {
   return (
     <div className="home_page">
-      <div className="default_carousel_top">
+      <div className="default_carousel_top container">
         <Carousel />
       </div>
 
